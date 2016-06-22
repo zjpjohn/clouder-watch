@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/Out"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <RelativeLayout
+                android:id="@+id/top"
+                android:layout_width="@dimen/top"
+                android:layout_height="@dimen/top"
+                android:layout_centerHorizontal="true">
+
+                <RelativeLayout
+                    android:id="@+id/headBg"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_centerHorizontal="true">
+
+                    <com.clouder.watch.call.ui.RoundImageView
+                        android:id="@+id/head"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/img_call_head"
+                        imagecontrol:border_outside_color="@color/green" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="190dp"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/acceptCall"
+                android:layout_width="@dimen/acceptCall"
+                android:layout_height="@dimen/acceptCall"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible">
+
+                <com.clouder.watch.call.ui.RoundImageView
+                    android:id="@+id/accHead"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/img_call_list_head"
+                    imagecontrol:border_outside_color="@color/green" />
+
+                <TextView
+                    android:id="@+id/naming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/chronometer"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="23sp" />
+
+                <Chronometer
+                    android:id="@+id/chronometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#FFF"
+                    android:textSize="21sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeTop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/btn_margin">
+
+                <TextView
+                    android:id="@+id/txtHide"
+                    android:layout_width="35dp"
+                    android:layout_height="1dp"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageButton
+                    android:id="@+id/callTerminate"
+                    android:layout_width="@dimen/reject_width"
+                    android:layout_height="@dimen/reject_width"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/call_terminate"
+                    android:contentDescription="@string/img_btn"
+                    android:visibility="invisible" />
+
+                <ImageButton
+                    android:id="@+id/callReject"
+                    android:layout_width="@dimen/reject_width"
+                    android:layout_height="@dimen/reject_width"
+                    android:layout_toLeftOf="@id/txtHide"
+                    android:background="@drawable/call_terminate"
+                    android:contentDescription="@string/img_btn"
+                    android:gravity="center"
+                    android:visibility="invisible" />
+
+                <ImageButton
+                    android:id="@+id/callAccept"
+                    android:layout_width="@dimen/reject_width"
+                    android:layout_height="@dimen/reject_width"
+                    android:layout_toRightOf="@id/txtHide"
+                    android:background="@drawable/call_accept"
+                    android:contentDescription="@string/img_btn"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>
+<!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-call/trunk/clouder-call/clouder-call/src/main/res/layout/activity_incoming.xml -->

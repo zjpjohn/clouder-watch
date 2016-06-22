@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.wearable.view.GridViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/largeIcons"-->
+    <!--android:layout_marginTop="160dp"-->
+    <!--android:src="@drawable/img_head"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentEnd="true" />-->
+
+
+</RelativeLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/layout/activity_my.xml -->

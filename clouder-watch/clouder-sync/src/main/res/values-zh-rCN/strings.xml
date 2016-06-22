@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">clouder-sync</string>
+    <string name="title_activity_notification_activitys">NotificationActivitys</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_notification_post">没有通知</string>
+
+    <string name="contacts_empty">通讯录为空</string>
+    <string name="records_empty">通话记录为空</string>
+    <string name="img_btn">btn</string>
+    <string name="no_notification">没有通知</string>
+    <string name="no_bt">蓝牙未连接</string>
+</resources>

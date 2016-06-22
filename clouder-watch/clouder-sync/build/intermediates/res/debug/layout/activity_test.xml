@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Active"/>
+
+        <Button
+            android:id="@+id/btn_incoming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_active"
+            android:text="Incoming"/>
+
+        <Button
+            android:id="@+id/btn_dialing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_incoming"
+            android:text="Dial"/>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/layout/activity_test.xml -->

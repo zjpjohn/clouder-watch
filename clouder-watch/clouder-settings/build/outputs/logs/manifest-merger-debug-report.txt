@@ -1,0 +1,266 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	android:sharedUserId
+		ADDED from AndroidManifest.xml:5:5
+	xmlns:android
+		ADDED from AndroidManifest.xml:4:5
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.SET_WALLPAPER_HINTS
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from AndroidManifest.xml:20:5
+MERGED from clouder-watch:clouder-common:unspecified:11:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:22:5
+MERGED from clouder-watch:clouder-common:unspecified:13:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:24:5
+MERGED from clouder-watch:clouder-common:unspecified:15:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-permission#android.permission.OEM_UNLOCK_STATE
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:22
+uses-permission#android.permission.android.permission.SYSTEM_ALERT_WINDOW
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+uses-permission#android.permission.MASTER_CLEAR
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-permission#android.permission.SET_WALLPAPER_COMPONENT
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:22
+uses-permission#android.permission.BIND_WALLPAPER
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:22
+uses-permission#android.permission.SHUTDOWN
+ADDED from AndroidManifest.xml:36:5
+	android:name
+		ADDED from AndroidManifest.xml:36:22
+uses-permission#android.permission.REBOOT
+ADDED from AndroidManifest.xml:37:5
+	android:name
+		ADDED from AndroidManifest.xml:37:22
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from AndroidManifest.xml:38:5
+	android:name
+		ADDED from AndroidManifest.xml:38:22
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:22
+supports-screens
+ADDED from AndroidManifest.xml:43:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:45:9
+	android:anyDensity
+		ADDED from AndroidManifest.xml:44:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:46:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:47:9
+application
+ADDED from AndroidManifest.xml:48:5
+MERGED from com.google.android.support:wearable:1.2.0:8:5
+MERGED from com.android.support:recyclerview-v7:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from clouder-watch:clouder-common:unspecified:17:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from de.hdodenhof:circleimageview:1.3.0:9:5
+MERGED from com.github.yoojia:zxing:0.3:11:5
+	android:label
+		ADDED from AndroidManifest.xml:53:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:50:9
+	android:icon
+		ADDED from AndroidManifest.xml:52:9
+	android:theme
+		ADDED from AndroidManifest.xml:54:9
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:51:9
+	android:name
+		ADDED from AndroidManifest.xml:49:9
+activity#com.clouder.watch.setting.activity.SettingActivity
+ADDED from AndroidManifest.xml:55:9
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER+android.settings.SETTINGS
+ADDED from AndroidManifest.xml:58:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:59:17
+	android:name
+		ADDED from AndroidManifest.xml:59:25
+action#android.settings.SETTINGS
+ADDED from AndroidManifest.xml:60:17
+	android:name
+		ADDED from AndroidManifest.xml:60:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:62:27
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:63:27
+activity#com.clouder.watch.setting.activity.WatchFaceActivity
+ADDED from AndroidManifest.xml:66:9
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:68:13
+activity#com.clouder.watch.setting.activity.BrightnessActivity
+ADDED from AndroidManifest.xml:69:9
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:71:13
+activity#com.clouder.watch.setting.activity.PowerSaveActivity
+ADDED from AndroidManifest.xml:72:9
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:74:13
+activity#com.clouder.watch.setting.activity.AboutActivity
+ADDED from AndroidManifest.xml:75:9
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:77:13
+activity#com.clouder.watch.setting.activity.ScreenLockerActivity
+ADDED from AndroidManifest.xml:78:9
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:80:13
+activity#com.clouder.watch.setting.activity.DevOpsActivity
+ADDED from AndroidManifest.xml:81:9
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:83:13
+activity#com.clouder.watch.setting.activity.BluetoothPairActivity
+ADDED from AndroidManifest.xml:85:9
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:87:13
+activity#com.clouder.watch.setting.activity.WifiManagerActivity
+ADDED from AndroidManifest.xml:88:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:91:13
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:90:13
+receiver#com.clouder.watch.setting.AirPlaneModeChangeReceiver
+ADDED from AndroidManifest.xml:93:9
+	android:name
+		ADDED from AndroidManifest.xml:93:19
+intent-filter#clouder.watch.action.AIRPLANE_MODE_CHANGE
+ADDED from AndroidManifest.xml:94:13
+action#clouder.watch.action.AIRPLANE_MODE_CHANGE
+ADDED from AndroidManifest.xml:95:17
+	android:name
+		ADDED from AndroidManifest.xml:95:25
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.google.android.support:wearable:1.2.0:4:5
+MERGED from com.android.support:recyclerview-v7:22.0.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from clouder-watch:clouder-common:unspecified:7:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from de.hdodenhof:circleimageview:1.3.0:5:5
+MERGED from com.github.yoojia:zxing:0.3:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+activity#android.support.v7.widget.TestActivity
+ADDED from com.android.support:recyclerview-v7:22.0.0:23:9
+	android:label
+		ADDED from com.android.support:recyclerview-v7:22.0.0:25:13
+	android:name
+		ADDED from com.android.support:recyclerview-v7:22.0.0:24:13

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_view_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/switcher"
+            android:layout_toRightOf="@+id/icon" />
+
+        <com.clouder.watch.common.widget.SwitchButton xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            app:cursor="@drawable/cursor"
+            app:moveDuration="50"
+            app:selectedBG="#0ba81b"
+            app:shadow="@drawable/switch_button_shadow"
+            app:shadowExpand="0dp"
+            app:shadowXDiff="0dp"
+            app:shadowYDiff="0dp"
+            app:status="OFF"
+            app:trackPadding="1dp"
+            app:trackWidth="64dp"
+            app:unselectedBG="#999999" />
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/layout/item_notification_black_list.xml -->

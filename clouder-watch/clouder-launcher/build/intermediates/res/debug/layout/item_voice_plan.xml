@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/item_view_default_width"
+        android:layout_height="@dimen/item_view_default_height"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_view_default_text_size" />
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_view_default_text_size" />
+
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-launcher/src/main/res/layout/item_voice_plan.xml -->

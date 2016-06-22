@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@drawable/btn_back"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/btn_back_click"></item>
+</selector><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-common/src/main/res/drawable-mdpi/selector_bg_watch_dialog_btn_n.xml --><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/drawable-mdpi/selector_bg_watch_dialog_btn_n.xml -->

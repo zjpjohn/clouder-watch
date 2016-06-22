@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6384c6cd674a22610b932d9464aa6938d067f285">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\classes-da864884e59d63779fb889cbcdd8708cbb3fc73b.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-4a0178e89d21f2c209d8212592b80a13b87f9653.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\classes-92782dd5141de60c6c09d41bb0d7c521422dda48.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.google.android.support\wearable\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\classes-8e9257e4a23b21c7f1593563181ac29fd151c13d.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d4cc5ef12f199c7841ce4d4c392ac620e9bb9bd2.jar" />
+    </item>
+    <item
+        jar="D:\SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d3395bbc6ddb64fbcc92db832760a3d7eefd597c.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\classes-8c73b48fd7cacf89d4ee92a21d4e35e12a8a942b.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\classes-f02cdd593fca10800c37daa6d184bcc3f33191cf.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watchface\clouder-watchfaces\build\intermediates\pre-dexed\debug\classes-fc97fb2a5a8b182728851fdc0dd3e3befdc1b4e4.jar" />
+    </item>
+
+</items>

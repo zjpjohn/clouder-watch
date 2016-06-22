@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="title_font_size">40sp</dimen>
+    <dimen name="button_font_size">26sp</dimen>
+    <dimen name="pair_font_size">24sp</dimen>
+    <dimen name="qr_code_size">190dp</dimen>
+    <dimen name="scroll_view_height">200dp</dimen>
+    <dimen name="tiny_font_size">16sp</dimen>
+    <dimen name="round_view_width">240dp</dimen>
+    <dimen name="rect_view_width">240dp</dimen>
+    <dimen name="items_margin">8dp</dimen>
+    <dimen name="title_margin_top">10dp</dimen>
+</resources>

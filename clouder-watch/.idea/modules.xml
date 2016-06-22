@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clouder-common/clouder-common.iml" filepath="$PROJECT_DIR$/clouder-common/clouder-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouder-guide/clouder-guide.iml" filepath="$PROJECT_DIR$/clouder-guide/clouder-guide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouder-launcher/clouder-launcher.iml" filepath="$PROJECT_DIR$/clouder-launcher/clouder-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouder-mobile/clouder-mobile.iml" filepath="$PROJECT_DIR$/clouder-mobile/clouder-mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouder-settings/clouder-settings.iml" filepath="$PROJECT_DIR$/clouder-settings/clouder-settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouder-sync/clouder-sync.iml" filepath="$PROJECT_DIR$/clouder-sync/clouder-sync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouder-watch.iml" filepath="$PROJECT_DIR$/clouder-watch.iml" />
+    </modules>
+  </component>
+</project>

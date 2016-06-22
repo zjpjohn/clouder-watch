@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/app_list_item_padding"
+        android:paddingBottom="@dimen/app_list_item_padding"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/icon"
+            android:layout_width="@dimen/app_list_item_img_width"
+            android:layout_height="@dimen/app_list_item_img_width"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:src="@drawable/launcher_icon"/>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/app_list_item_text_height"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="aaaaa"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-launcher/src/main/res/layout/item_for_app_list.xml -->

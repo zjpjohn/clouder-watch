@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background">
+
+    <!--<include layout="@layout/activity_title_template"></include>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首次使用,"
+            android:textColor="@color/font_first_use"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="请配对新设备!"
+            android:textColor="@color/font_first_use"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_pair"
+        android:layout_width="wrap_content"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/selector_bg_btn_green"
+        android:text="开始配对"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/item_view_default_width"
+        android:layout_height="@dimen/item_view_default_height"
+        android:background="@drawable/selector_bg_list_item">
+
+        <TextView
+            android:id="@+id/wifi_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Wifi"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/wifi_switcher"
+            android:layout_width="@dimen/item_btn_height"
+            android:layout_height="@dimen/item_btn_height"
+            android:maxLength="4"
+            android:ellipsize="end"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/btn_settings_off"
+            android:gravity="center"
+            android:text="连接"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tiny_font_size" />
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/src/main/res/layout/item_activity_wifi_manager.xml -->

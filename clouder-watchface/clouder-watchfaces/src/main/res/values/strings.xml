@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">clouder-watchface</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+</resources>

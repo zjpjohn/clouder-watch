@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_change_pwd"
+        android:layout_width="@dimen/item_view_default_width"
+        android:layout_height="@dimen/item_view_default_height"
+        android:background="@drawable/selector_bg_list_item">
+
+        <TextView
+            android:id="@+id/tvChangePwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/activity_screen_locker_change_pwd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tiny_font_size"/>
+
+        <ImageView
+            android:layout_width="@dimen/item_btn_height"
+            android:layout_height="@dimen/item_btn_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/btn_settings_more"/>
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/src/main/res/layout/item_screen_lock_two.xml -->

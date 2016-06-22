@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ui-->
+    <string name="locker_input_password">Enter password</string>
+    <string name="locker_password_number0">0</string>
+    <string name="locker_password_number1">1</string>
+    <string name="locker_password_number2">2</string>
+    <string name="locker_password_number3">3</string>
+    <string name="locker_password_number4">4</string>
+    <string name="locker_password_number5">5</string>
+    <string name="locker_password_number6">6</string>
+    <string name="locker_password_number7">7</string>
+    <string name="locker_password_number8">8</string>
+    <string name="locker_password_number9">9</string>
+    <string name="activity_locker_ok">Ok</string>
+    <string name="activity_locker_cancel">Cancel</string>
+
+    <!--setpassword、changepassword。unlock-->
+    <string name="activity_setpassword_input_password"> Enter your password</string>
+    <string name="activity_setpassword_password">Enter password</string>
+    <string name="activity_setpassword_input_password_agin">Enter the password again</string>
+    <string name="activity_setpassword_input_password_four">Enter four digits</string>
+    <string name="activity_setpassword_success">Set password success!</string>
+    <string name="activity_setpassword_password_pair_fail">Passwords do not match. Please try again</string>
+
+    <string name="activity_unlock_password_true">Unlock success!</string>
+    <string name="activity_unlock_password_false">Wrong password, please re-enter your password</string>
+
+    <string name="activity_changepsw_input_password_ori">Enter old password</string>
+    <string name="activity_changepsw_input_password_new">Enter new password</string>
+    <string name="activity_changepsw_input_password_new_agin">Enter password again</string>
+    <string name="activity_changepsw_input_password_four">Enter four digits</string>
+    <string name="activity_changepsw_input_password_ori_true">The old password is correct!</string>
+    <string name="activity_changepsw_input_password_ori_false">Old password is incorrect!</string>
+    <string name="activity_changepsw_password_pair_false">Passwords do not match. Please try again</string>
+    <string name="activity_changepsw_input_password_not_the_same">Please enter a different password. You can not use the same password again</string>
+    <string name="activity_changepsw_success">Change Password Success!</string>
+</resources>

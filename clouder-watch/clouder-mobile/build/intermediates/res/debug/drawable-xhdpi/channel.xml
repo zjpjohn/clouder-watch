@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/bg_on" android:state_checked="true"/>
+
+
+    <item android:drawable="@drawable/bg_off" android:state_checked="false"/>
+</selector><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/drawable-xhdpi/channel.xml -->

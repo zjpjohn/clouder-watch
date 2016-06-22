@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clouder-records</string>
+    <string name="img_btn">btn</string>
+	<string name="records_empty">通话记录为空</string>
+</resources>

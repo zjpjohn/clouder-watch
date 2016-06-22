@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="reject_width">60dp</dimen>
+    <dimen name="btn_margin">240dp</dimen>
+    <dimen name="acceptCall">200dp</dimen>
+    <dimen name="top">210dp</dimen>
+</resources>

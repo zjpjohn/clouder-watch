@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+        android:layout_alignParentTop="true"
+        android:listSelector="@null" />
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSend"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="请选择Wifi加密方式"
+            android:textColor="@color/holo_blue_dark"
+            android:textSize="22sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="Wifi加密方式"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/type_wep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="wep"
+                android:textSize="22sp" />
+
+            <RadioButton
+                android:id="@+id/type_wpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wpa"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp" />
+
+            <RadioButton
+                android:id="@+id/type_no_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no pass"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="请输入密码"
+            android:textColor="@color/holo_blue_dark"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_dark"
+        android:text="Send Wifi Config"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+    <style name="translucent" parent="@android:style/Theme.Translucent">
+        <!-- Customize your theme here. -->
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+int mipmap scan_corner_bottom_left 0x7f020000
+int mipmap scan_corner_bottom_right 0x7f020001
+int mipmap scan_corner_top_left 0x7f020002
+int mipmap scan_corner_top_right 0x7f020003
+int mipmap scan_laser 0x7f020004
+int string app_name 0x7f030000

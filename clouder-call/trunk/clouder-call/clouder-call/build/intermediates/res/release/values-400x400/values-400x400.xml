@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-call/trunk/clouder-call/clouder-call/src/main/res/values-400x400/dimens.xml -->
+    <eat-comment/>
+    <dimen name="acceptCall">220dp</dimen>
+    <dimen name="btn_margin">240dp</dimen>
+    <dimen name="reject_width">70dp</dimen>
+    <dimen name="top">230dp</dimen>
+</resources>

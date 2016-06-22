@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="y_offset">190dp</dimen>
+    <dimen name="x_offset_square">15dp</dimen>
+    <dimen name="x_offset_round">35dp</dimen>
+    <dimen name="text_size">70px</dimen>
+    <dimen name="year_size">24sp</dimen>
+    <dimen name="weak_size">20sp</dimen>
+    <dimen name="day_size">30sp</dimen>
+    <dimen name="year_sizes">18sp</dimen>
+
+</resources>

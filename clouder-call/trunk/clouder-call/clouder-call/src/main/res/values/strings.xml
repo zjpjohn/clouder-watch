@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">电话</string>
+    <string name="contacts_empty">通讯录为空</string>
+    <string name="records_empty">通话记录为空</string>
+    <string name="img_btn">btn</string>
+</resources>

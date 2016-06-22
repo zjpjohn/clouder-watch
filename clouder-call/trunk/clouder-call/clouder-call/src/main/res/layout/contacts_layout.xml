@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <ListView
+        android:id="@+id/contacts"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:dividerHeight="20dp"
+		android:divider="#00000000"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@android:color/transparent"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+    </ListView>
+    
+    <TextView android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/bg_call_list"
+        android:gravity="center_vertical|center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+		android:text="@string/contacts_empty"
+        android:textSize="21sp" />
+    
+</RelativeLayout>

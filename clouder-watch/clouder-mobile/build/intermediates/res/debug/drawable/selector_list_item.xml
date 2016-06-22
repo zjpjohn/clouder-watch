@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <color android:color="@color/item"></color>
+    </item>
+    <item android:state_pressed="true">
+        <color android:color="@color/item_hover"></color>
+    </item>
+</selector><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/drawable/selector_list_item.xml -->

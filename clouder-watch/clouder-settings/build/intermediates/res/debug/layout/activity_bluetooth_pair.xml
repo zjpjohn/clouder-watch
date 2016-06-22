@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/list_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_box="left|bottom|right">
+
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/bluetooth_pair_qrcode_margin_top"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/activity_guide_please_scan"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/qrCode"
+            android:layout_width="@dimen/qr_code_size"
+            android:layout_height="@dimen/qr_code_size"
+            android:layout_centerInParent="true"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/tip_airplane"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/device_on_air_plane_mode"
+            android:textSize="@dimen/button_font_size"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.wearable.view.BoxInsetLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/src/main/res/layout/activity_bluetooth_pair.xml -->

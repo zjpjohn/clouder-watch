@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="color_black">#000000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="dark_grey">#424242</color>
+
+    <color name="switch_button_selected">#0ba81b</color>
+    <color name="switch_button_unselected">#999999</color>
+    <color name="transparent">#0000</color>
+    <color name="list_diver">#44FFFFFF</color>
+</resources>

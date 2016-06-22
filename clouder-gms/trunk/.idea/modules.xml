@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MessageClient/MessageClient.iml" filepath="$PROJECT_DIR$/MessageClient/MessageClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessagePhoneSideImpl/MessagePhoneSideImpl.iml" filepath="$PROJECT_DIR$/MessagePhoneSideImpl/MessagePhoneSideImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessagePhoneSideImplJar/MessagePhoneSideImplJar.iml" filepath="$PROJECT_DIR$/MessagePhoneSideImplJar/MessagePhoneSideImplJar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageServer/MessageServer.iml" filepath="$PROJECT_DIR$/MessageServer/MessageServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageWatchSideImpl/MessageWatchSideImpl.iml" filepath="$PROJECT_DIR$/MessageWatchSideImpl/MessageWatchSideImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageWatchSideImplJar/MessageWatchSideImplJar.iml" filepath="$PROJECT_DIR$/MessageWatchSideImplJar/MessageWatchSideImplJar.iml" />
+    </modules>
+  </component>
+</project>

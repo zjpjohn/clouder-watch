@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+    <style name="activity_bg">
+        <item name="android:background">@color/black</item>
+    </style>
+
+</resources>

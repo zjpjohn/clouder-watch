@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/content_background"
+              android:orientation="vertical">
+
+    <!--<include layout="@layout/activity_title_template"></include>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/connected_device"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_view_height"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/paired_device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="TicWear"
+                android:textColor="@color/font_title"
+                android:textSize="@dimen/item_title_text_size"/>
+
+            <TextView
+                android:id="@+id/paired_device_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/paired_device_name"
+                android:text="未连接"
+                android:textColor="@color/green"
+                android:textSize="@dimen/item_tiny_text_size"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_more"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <include layout="@layout/border_template"></include>
+
+        <ListView
+            android:id="@+id/unpaired_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/border"
+            android:dividerHeight="2dp">
+
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_view_height"
+            android:layout_below="@+id/unpaired_list"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="添加新设备"
+                android:textColor="@color/font_title"
+                android:textSize="@dimen/item_title_text_size"/>
+
+
+            <ImageButton
+                android:id="@+id/add_more_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_add"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/layout/activity_device_connect.xml -->

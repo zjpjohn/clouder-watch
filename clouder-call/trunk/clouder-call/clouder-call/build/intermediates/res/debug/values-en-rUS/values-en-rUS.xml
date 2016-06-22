@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-call/trunk/clouder-call/clouder-call/src/main/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">clouder-call</string>
+    <string name="contacts_empty">No contacts</string>
+    <string name="img_btn">btn</string>
+    <string name="notify">Turn off flight mode</string>
+    <string name="records_empty">Call log is empty</string>
+</resources>

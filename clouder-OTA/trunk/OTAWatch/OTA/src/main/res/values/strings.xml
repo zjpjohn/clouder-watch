@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OTA</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <string name="upgrade">系统升级</string>
+    <string name="upgrade_detail">请确认是否进行升级?</string>
+    <string name="upgrading">系统升级中，请稍后</string>
+    <string name="restart">升级完毕，正在重启...</string>
+    <string name="curr_version">当前版本: v1.0.0</string>
+</resources>

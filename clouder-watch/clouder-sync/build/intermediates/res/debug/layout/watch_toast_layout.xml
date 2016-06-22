@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/watch_toast_bg"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Clouder settings app does not exit."
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-common/src/main/res/layout/watch_toast_layout.xml --><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/layout/watch_toast_layout.xml -->

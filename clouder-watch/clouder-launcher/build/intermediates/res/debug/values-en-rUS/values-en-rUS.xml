@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-launcher/src/main/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="afternoon_tea">Afternoon tea</string>
+    <string name="clouder_settings_app_not_found">can not find clouder settings app</string>
+    <string name="dinner_with_customers">Dinner</string>
+    <string name="function_not_complete">function not completed!</string>
+    <string name="knock_off">Knock off</string>
+    <string name="morning_meeting">Meeting</string>
+    <string name="my_plan">My schedule for today?</string>
+    <string name="my_plan_for_today">My plan</string>
+    <string name="noon_break">Noon break</string>
+    <string name="reception_customer">Training</string>
+    <string name="voice_input">Listening...</string>
+    <string name="voice_resolving">Verifing...</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-launcher/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values-en-rUS/values-en-rUS.xml -->
+    <eat-comment/>
+    <string name="watch_dialog_btn_negative_text">Cancel</string>
+    <string name="watch_dialog_btn_positive_text">Ok</string>
+</resources>

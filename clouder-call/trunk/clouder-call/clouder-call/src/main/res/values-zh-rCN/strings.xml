@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电话</string>
+    <string name="contacts_empty">通讯录为空</string>
+    <string name="records_empty">通话记录为空</string>
+    <string name="img_btn">btn</string>
+    <string name="notify">请先关闭飞行模式</string>
+</resources>

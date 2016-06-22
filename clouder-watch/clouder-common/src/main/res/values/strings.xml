@@ -1,0 +1,4 @@
+<resources>
+    <string name="watch_dialog_btn_positive_text">确定</string>
+    <string name="watch_dialog_btn_negative_text">取消</string>
+</resources>

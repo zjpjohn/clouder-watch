@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values-en-rUS/attr.xml -->
+    <eat-comment/>
+    <declare-styleable name="roundedimageview">
+        <attr format="dimension" name="border_thickness"/>
+        <attr format="color" name="border_inside_color"/>
+        <attr format="color" name="border_outside_color"/>
+    </declare-styleable>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">clouder-sync</string>
+    <string name="contacts_empty">No contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="img_btn">btn</string>
+    <string name="no_bt">Bluetooth is not connected</string>
+    <string name="no_notification">No Notification Found</string>
+    <string name="no_notification_post">No Notification Found</string>
+    <string name="notify">Turn off flight mode</string>
+    <string name="records_empty">Call log is empty</string>
+    <string name="title_activity_notification_activitys">NotificationActivitys</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values-en-rUS/values-en-rUS.xml -->
+    <eat-comment/>
+    <string name="watch_dialog_btn_negative_text">Cancel</string>
+    <string name="watch_dialog_btn_positive_text">Ok</string>
+</resources>

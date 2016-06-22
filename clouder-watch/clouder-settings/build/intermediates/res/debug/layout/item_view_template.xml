@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/item_view_default_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_list_item">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_view_default_text_size"
+            android:text="Bluetooth"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_view_default_text_size"
+            android:text="Bluetooth"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-common/src/main/res/layout/item_view_template.xml --><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/layout/item_view_template.xml -->

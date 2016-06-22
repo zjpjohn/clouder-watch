@@ -1,0 +1,4 @@
+<resources>
+    <string name="watch_dialog_btn_positive_text">Ok</string>
+    <string name="watch_dialog_btn_negative_text">Cancel</string>
+</resources>

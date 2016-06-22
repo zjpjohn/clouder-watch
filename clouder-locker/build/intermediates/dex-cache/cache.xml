@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\pre-dexed\debug\classes-d1260739c2303be4047346005149ea5784e6cbbe.jar\classes.dex" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-25a8c0cfca3ea5572f406dcba5b191052ce3dc6e.jar\classes.dex" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\libs\wearable-watch-framework-0.0.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="616b812b919d5eefc09cd4c6c884b43fbaff603d">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\pre-dexed\debug\wearable-watch-framework-0.0.6-a7a154f7396cb5853350a2afff5d573309cc275d.jar\classes.dex" />
+    </item>
+    <item
+        jar="D:\SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-078533c078f15af2ed99ee6575a520f3a28afb82.jar\classes.dex" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\pre-dexed\debug\classes-9f05552f6df17ba8af8c9617fa66e6d06bed655d.jar\classes.dex" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-locker\clouder-lock\build\intermediates\pre-dexed\debug\classes-37a3baa762b0464ae9ef1785b23908921acf1f1d.jar\classes.dex" />
+    </item>
+
+</items>

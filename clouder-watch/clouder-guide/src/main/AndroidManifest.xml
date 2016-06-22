@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clouder.watch.guide"
+    android:sharedUserId="com.clouder.watch">
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT" />
+    <uses-permission android:name="android.permission.BIND_WALLPAPER" />
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.REBOOT" />
+
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="Clouder Guide"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".GuideLanguageActivity"
+            android:clearTaskOnLaunch="true"
+            android:label="Clouder Guide"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:stateNotNeeded="true">
+            <intent-filter android:priority="4">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GuidePairCodeActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".GuidePairingActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".GuideScreenLockerActivity"
+            android:launchMode="singleTop" />
+
+    </application>
+
+</manifest>

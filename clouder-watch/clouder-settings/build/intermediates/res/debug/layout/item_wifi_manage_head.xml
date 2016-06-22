@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/openOrClose"
+        android:layout_width="@dimen/item_view_default_width"
+        android:layout_height="@dimen/item_view_default_height"
+        android:background="@drawable/selector_bg_list_item">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/settings_btn"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@+id/item_title"
+                android:layout_toStartOf="@+id/item_btn" />
+
+            <TextView
+                android:id="@+id/wifi_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/settings_btn"
+            android:layout_width="@dimen/item_btn_height"
+            android:layout_height="@dimen/item_btn_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_settings_off"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:text="@string/state_off"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tiny_font_size" />
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/src/main/res/layout/item_wifi_manage_head.xml -->

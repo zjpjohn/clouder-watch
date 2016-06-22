@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#424242</color>
+    <color name="black">#FF000000</color>
+    <color name="border">#ffc4caca</color>
+    <color name="center_text_color">#f9f9f9</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="color_black">#000000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="content_background">#ffe4eaea</color>
+    <color name="dark_grey">#ff424242</color>
+    <color name="font_first_use">#ff0b467d</color>
+    <color name="font_tip">#ff656b6b</color>
+    <color name="font_title">#ff282e2e</color>
+    <color name="green">#FF00FF00</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="item">#ffe4eaea</color>
+    <color name="item_hover">#ffffffff</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="list_diver">#44FFFFFF</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="live_wallpaper_thumbnail_background">#CC666666</color>
+    <color name="live_wallpaper_thumbnail_text_color">#FFFFFFFF</color>
+    <color name="no_center_text_color">#a0a0a0</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="switch_button_selected">#0ba81b</color>
+    <color name="switch_button_unselected">#999999</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="theme_color">@color/holo_blue_light</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="transparent">#0000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="transparent_blue_light">#3e33b5e5</color>
+    <color name="transparent_green_light">#3e99cc00</color>
+    <color name="transparent_orange_light">#3effbb33</color>
+    <color name="transparent_red_light">#3eff4444</color>
+    <color name="white">#FFFFFFFF</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference" name="cursor"/><attr format="color" name="selectedBG"/><attr format="color" name="unselectedBG"/><attr format="integer" name="moveDuration"/><attr format="dimension" name="trackWidth"/><attr format="dimension" name="trackPadding"/><attr format="dimension" name="cursorTouchExpand"/><attr format="enum" name="status"><enum name="ON" value="0x00"/><enum name="OFF" value="0x01"/></attr><attr format="dimension" name="shadowExpand"/><attr format="dimension" name="shadowXDiff"/><attr format="dimension" name="shadowYDiff"/><attr format="reference" name="shadow"/></declare-styleable>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="item_button_text_size">22sp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="item_text_margin_top">10dp</dimen>
+    <dimen name="item_tiny_text_size">12sp</dimen>
+    <dimen name="item_title_text_size">18sp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="item_view_default_height">80dp</dimen>
+    <dimen name="item_view_default_margin">6dp</dimen>
+    <dimen name="item_view_default_text_size">26sp</dimen>
+    <dimen name="item_view_default_width">320dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="item_view_height">80dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="list_view_default_height">280dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="main_state_text_size">18sp</dimen>
+    <dimen name="main_title_text_size">24sp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="switch_button_padding">5dp</dimen>
+    <dimen name="switch_button_track_width">72dp</dimen>
+    <dimen name="title_text_size">40sp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_title">关于</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_changepsw_input_password_four">请输入4位数字</string>
+    <string name="activity_changepsw_input_password_new">请输入新密码</string>
+    <string name="activity_changepsw_input_password_new_agin">请再次输入新密码</string>
+    <string name="activity_changepsw_input_password_not_the_same">请输入其他密码。不能再次使用相同的密码</string>
+    <string name="activity_changepsw_input_password_ori">请输入旧密码</string>
+    <string name="activity_changepsw_input_password_ori_false">旧密码错误！</string>
+    <string name="activity_changepsw_input_password_ori_true">旧密码正确！</string>
+    <string name="activity_changepsw_password_pair_false">密码不匹配。请再试一次</string>
+    <string name="activity_changepsw_success">修改密码成功！</string>
+    <string name="activity_locker_cancel">取消</string>
+    <string name="activity_locker_ok">确定</string>
+    <string name="activity_setpassword_input_password">请输入密码</string>
+    <string name="activity_setpassword_input_password_agin">请再次输入密码</string>
+    <string name="activity_setpassword_input_password_four">请输入4位数字</string>
+    <string name="activity_setpassword_password">输入密码</string>
+    <string name="activity_setpassword_password_pair_fail">密码不匹配。请再试一次</string>
+    <string name="activity_setpassword_success">设置密码成功!</string>
+    <string name="activity_unlock_password_false">密码错误，请重新输入密码</string>
+    <string name="activity_unlock_password_true">解锁成功!</string>
+    <string name="app_name">MessageClient</string>
+    <string name="app_title">Clouder助手</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="connect_center_title">设备连接</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="locker_input_password">请输入密码</string>
+    <string name="locker_password_number0">0</string>
+    <string name="locker_password_number1">1</string>
+    <string name="locker_password_number2">2</string>
+    <string name="locker_password_number3">3</string>
+    <string name="locker_password_number4">4</string>
+    <string name="locker_password_number5">5</string>
+    <string name="locker_password_number6">6</string>
+    <string name="locker_password_number7">7</string>
+    <string name="locker_password_number8">8</string>
+    <string name="locker_password_number9">9</string>
+    <string name="locker_settings_title">屏幕锁</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="no_data">No data</string>
+    <string name="notification_center_title">通知管理</string>
+    <string name="scan_result_parse_failed">扫描信息不正确，请重新扫描</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="title_empty"> </string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="watch_dialog_btn_negative_text">取消</string>
+    <string name="watch_dialog_btn_positive_text">确定</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="watchface_center_title">表盘中心</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBarOverflowStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowStyle</item>
+        <item name="android:logo">@android:color/transparent</item>
+        <item name="android:title">@string/title_empty</item>
+    </style>
+    <style name="Switch">
+        <item name="android:track">@drawable/channel</item>
+        <item name="android:thumb">@drawable/switch_button</item>
+        <item name="android:textOn">开</item>
+        <item name="android:textOff">关</item>
+        <item name="android:thumbTextPadding">2dip</item>
+        <item name="android:switchMinWidth">72dp</item>
+        <item name="android:switchPadding">12dip</item>
+        <item name="android:height">0dip</item>
+    </style>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#FFF</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/bg_head</item>
+
+    </style>
+</resources>

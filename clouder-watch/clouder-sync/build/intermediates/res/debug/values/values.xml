@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="action_button_background">#4D000000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="black">#FF000000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="black_54p">#8A000000</color>
+    <color name="black_86p">#DE000000</color>
+    <color name="blue">#2979FF</color>
+    <color name="card_default_background">#E0E0E0</color>
+    <color name="circular_button_disabled">@color/grey</color>
+    <color name="circular_button_normal">#0288D1</color>
+    <color name="circular_button_pressed">#01579B</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="color_black">#000000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="dark_blue">#1565C0</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="dark_grey">#424242</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="dark_red">#D32F2F</color>
+    <color name="dialog_background">#414141</color>
+    <color name="dialog_shade_background">#606060</color>
+    <color name="disabled_text_light">#E0E0E0</color>
+    <color name="dismiss_close">#FF5151</color>
+    <color name="dismiss_close_pressed">#B83120</color>
+    <color name="dismiss_overlay_bg">#80000000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="green">#FF00FF00</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="grey">#757575</color>
+    <color name="light_grey">#bdbdbd</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="list_diver">#44FFFFFF</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="orange">#FF6D3F</color>
+    <color name="primary_text_dark">@color/white</color>
+    <color name="primary_text_light">@color/dark_grey</color>
+    <color name="red">#FF5252</color>
+    <color name="secondary_text_light">#9E9E9E</color>
+    <color name="semitransparent_grey">#66777777</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="switch_button_selected">#0ba81b</color>
+    <color name="switch_button_unselected">#999999</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="transparent">#0000</color>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="white">#FFFFFFFF</color>
+    <declare-styleable name="ActionLabel"><attr name="android:textColor"/><attr name="android:maxLines"/><attr name="android:fontFamily"/><attr name="android:typeface"/><attr name="android:textStyle"/><attr name="android:text"/><attr name="android:gravity"/><attr name="android:lineSpacingExtra"/><attr name="android:lineSpacingMultiplier"/><attr format="dimension" name="minTextSize"/><attr format="dimension" name="maxTextSize"/></declare-styleable>
+    <declare-styleable name="ActionPage"><attr name="android:src"/><attr name="android:color"/><attr name="rippleColor"/><attr name="android:elevation"/><attr name="android:stateListAnimator"/><attr name="pressedTranslationZ"/><attr name="android:textColor"/><attr name="android:maxLines"/><attr name="android:fontFamily"/><attr name="android:typeface"/><attr name="android:textStyle"/><attr name="android:text"/><attr name="maxTextSize"/><attr name="minTextSize"/><attr name="android:gravity"/><attr name="imageScaleMode"/><attr name="android:lineSpacingExtra"/><attr name="android:lineSpacingMultiplier"/></declare-styleable>
+    <declare-styleable name="BoxInsetLayout_Layout"><attr name="layout_box"><flag name="left" value="0x01"/><flag name="top" value="0x02"/><flag name="right" value="0x04"/><flag name="bottom" value="0x08"/><flag name="all" value="0x0F"/></attr></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
+    <declare-styleable name="CircledImageView"><attr name="android:src"/><attr format="color" name="circle_color"/><attr format="dimension" name="circle_radius"/><attr format="dimension" name="circle_radius_pressed"/><attr format="dimension" name="circle_border_width"/><attr format="color" name="circle_border_color"/><attr format="dimension" name="circle_padding"/><attr format="dimension" name="shadow_width"/></declare-styleable>
+    <declare-styleable name="CircularButton"><attr name="android:src"/><attr format="enum" name="imageScaleMode"><enum name="fit" value="0"/><enum name="center" value="1"/></attr><attr name="android:color"/><attr format="reference|color" name="rippleColor"/><attr name="android:elevation"/><attr name="android:stateListAnimator"/><attr format="dimension" name="pressedTranslationZ"/></declare-styleable>
+    <declare-styleable name="DelayedConfirmationView"><attr format="integer" name="update_interval"/></declare-styleable>
+    <declare-styleable name="DotsPageIndicator"><attr format="dimension" name="dotSpacing"/><attr format="dimension" name="dotRadius"/><attr format="dimension" name="dotRadiusSelected"/><attr format="color" name="dotColor"/><attr format="color" name="dotColorSelected"/><attr format="boolean" name="dotFadeWhenIdle"/><attr format="integer" name="dotFadeOutDelay"/><attr format="integer" name="dotFadeOutDuration"/><attr format="integer" name="dotFadeInDuration"/><attr format="color" name="dotShadowColor"/><attr format="dimension" name="dotShadowRadius"/><attr format="dimension" name="dotShadowDx"/><attr format="dimension" name="dotShadowDy"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference" name="cursor"/><attr format="color" name="selectedBG"/><attr format="color" name="unselectedBG"/><attr format="integer" name="moveDuration"/><attr format="dimension" name="trackWidth"/><attr format="dimension" name="trackPadding"/><attr format="dimension" name="cursorTouchExpand"/><attr format="enum" name="status"><enum name="ON" value="0x00"/><enum name="OFF" value="0x01"/></attr><attr format="dimension" name="shadowExpand"/><attr format="dimension" name="shadowXDiff"/><attr format="dimension" name="shadowYDiff"/><attr format="reference" name="shadow"/></declare-styleable>
+    <declare-styleable name="WatchViewStub"><attr format="reference" name="rectLayout"/><attr format="reference" name="roundLayout"/></declare-styleable>
+    <declare-styleable name="WearableFrameLayout"><attr name="layout_gravityRound"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="dimension" name="layout_widthRound"/><attr format="dimension" name="layout_heightRound"/><attr format="dimension" name="layout_marginRound"/><attr format="dimension" name="layout_marginLeftRound"/><attr format="dimension" name="layout_marginTopRound"/><attr format="dimension" name="layout_marginRightRound"/><attr format="dimension" name="layout_marginBottomRound"/><attr name="android:foregroundGravity"/><attr name="android:foreground"/><attr name="android:measureAllChildren"/><attr name="android:foregroundTint"/></declare-styleable>
+    <declare-styleable name="WearableHeaderTextView"><attr name="circular_layout_gravity"><flag name="left" value="0x03"/><flag name="top" value="0x30"/><flag name="right" value="0x05"/><flag name="bottom" value="0x50"/><flag name="center_vertical" value="0x10"/><flag name="center_horizontal" value="0x01"/><flag name="center" value="0x11"/></attr><attr format="dimension" name="circular_text_size"/></declare-styleable>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="call_state_btn_width">70dp</dimen>
+    <dimen name="call_state_img_width">200dp</dimen>
+    <dimen name="call_state_roundview_width">140dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="card_content_padding_rect_top">4dp</dimen>
+    <dimen name="circular_button_elevation">1dp</dimen>
+    <dimen name="circular_button_elevation_pressed">6dp</dimen>
+    <dimen name="close_button_diameter">104dp</dimen>
+    <dimen name="diag_button_bottom_padding">10dp</dimen>
+    <dimen name="diag_button_bottom_padding_round">32dp</dimen>
+    <dimen name="diag_button_side_padding_right_round">22dp</dimen>
+    <dimen name="diag_content_bottom_padding">10dp</dimen>
+    <dimen name="diag_content_side_padding">16dp</dimen>
+    <dimen name="diag_content_side_padding_round">36dp</dimen>
+    <dimen name="diag_content_top_padding">10dp</dimen>
+    <dimen name="diag_content_top_padding_round">30dp</dimen>
+    <dimen name="diag_floating_height">16dp</dimen>
+    <dimen name="diag_shade_height_rect">90dp</dimen>
+    <dimen name="diag_shade_height_round">108dp</dimen>
+    <dimen name="dismiss_padding">16dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="half_width">200dp</dimen>
+    <dimen name="icon_item_marginEnd">40dp</dimen>
+    <dimen name="icon_marginEnd">40dp</dimen>
+    <dimen name="icon_marginTop">30dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="item_button_text_size">22sp</dimen>
+    <dimen name="item_view_default_height">80dp</dimen>
+    <dimen name="item_view_default_margin">6dp</dimen>
+    <dimen name="item_view_default_text_size">26sp</dimen>
+    <dimen name="item_view_default_width">320dp</dimen>
+    <dimen name="list_view_default_height">280dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="notification_list_padding_bottom">40dp</dimen>
+    <dimen name="notification_list_padding_left">40dp</dimen>
+    <dimen name="notification_list_padding_right">40dp</dimen>
+    <dimen name="notification_list_padding_top">40dp</dimen>
+    <dimen name="notification_marginBottom">15dp</dimen>
+    <dimen name="notification_marginEnd">65dp</dimen>
+    <dimen name="notification_marginLeft">65dp</dimen>
+    <dimen name="notification_marginRight">65dp</dimen>
+    <dimen name="notification_marginTop">40dp</dimen>
+    <dimen name="notification_scroll_height">200dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="switch_button_padding">5dp</dimen>
+    <dimen name="switch_button_track_width">72dp</dimen>
+    <dimen name="title_text_size">40sp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="width">400dp</dimen>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">clouder-sync</string>
+    <string name="contacts_empty">通讯录为空</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="dismiss_overlay_button_label">Quit</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <string name="img_btn">btn</string>
+    <string name="no_bt">蓝牙未连接</string>
+    <string name="no_notification">没有通知</string>
+    <string name="no_notification_post">没有通知</string>
+    <string name="records_empty">通话记录为空</string>
+    <string name="title_activity_notification_activitys">NotificationActivitys</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="watch_dialog_btn_negative_text">取消</string>
+    <string name="watch_dialog_btn_positive_text">确定</string>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowSwipeToDismiss">false</item>-->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="NotificationSingleTheme" parent="AppTheme">
+    </style>
+    <style name="Theme.AppStartLoadTranslucent" parent="android:Theme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+    <style name="Translucent" parent="android:Theme.Translucent">
+        <item name="android:windowSwipeToDismiss">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#FFF</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

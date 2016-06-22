@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-common/src/main/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="watch_dialog_btn_negative_text">Cancel</string>
+    <string name="watch_dialog_btn_positive_text">Ok</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clouder.watch.locker"
+    android:sharedUserId="com.clouder.watch">
+
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher">
+        <activity android:name="com.clouder.watch.locker.ChangePassWordActivity" />
+        <activity android:name="com.clouder.watch.locker.SetPassWordActivity" />
+        <activity
+            android:name="com.clouder.watch.locker.UnLockActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.clouder.watch.locker.LockService">
+            <intent-filter>
+                <action android:name="com.clouder.watch.lock.intent_action_lockservice" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

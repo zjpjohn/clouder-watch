@@ -1,0 +1,1 @@
+include ':clouder-launcher', ':clouder-settings', ':clouder-common', ':clouder-mobile', ':clouder-guide', ':clouder-sync'

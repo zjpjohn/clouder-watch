@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clouder-contacts</string>
+    <string name="contacts_empty">通讯录为空</string>
+
+</resources>

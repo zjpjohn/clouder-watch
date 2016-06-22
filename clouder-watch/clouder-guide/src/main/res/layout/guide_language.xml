@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/activity_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/title_margin_top"
+            android:gravity="center"
+            android:text="@string/activity_guide_language_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_font_size"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_language_english"
+                android:layout_width="@dimen/rect_view_width"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_blue"
+                android:text="@string/language_english"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_font_size"/>
+
+            <Button
+                android:id="@+id/btn_language_chinese"
+                android:layout_width="@dimen/rect_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_btn_green"
+                android:text="@string/language_chinese"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_font_size"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circle_2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle_1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle_1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle_1"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.wearable.view.BoxInsetLayout>

@@ -1,0 +1,963 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" type="text/css" href="lint-results_files/hololike.css" />
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Wed Dec 09 10:12:25 CST 2015.<br/>
+2 errors and 64 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-error.png" alt="Error" />
+<a href="#MissingRegistered">MissingRegistered: Missing registered class</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#OldTargetApi">OldTargetApi: Target SDK attribute is not targeting latest version</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#SimpleDateFormat">SimpleDateFormat: Implied locale in date format</a>
+</td></tr>
+<tr>
+<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#InflateParams">InflateParams: Layout Inflation without a Parent</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Correctness:Messages">Correctness:Messages</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-error.png" alt="Error" />
+<a href="#ExtraTranslation">ExtraTranslation: Extra translation</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#HandlerLeak">HandlerLeak: Handler reference leaks</a>
+</td></tr>
+<tr>
+<td class="countColumn">5</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#Overdraw">Overdraw: Overdraw: Painting regions more than once</a>
+</td></tr>
+<tr>
+<td class="countColumn">6</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UselessParent">UselessParent: Useless parent layout</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">14</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconLocation">IconLocation: Image defined in density-independent drawable folder</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
+</td></tr>
+<tr>
+<td class="countColumn">6</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#ContentDescription">ContentDescription: Image without <code>contentDescription</code></a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Bi-directional Text">Bi-directional Text</a>
+</td></tr>
+<tr>
+<td class="countColumn">19</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#RtlHardcoded">RtlHardcoded: Using left/right instead of start/end attributes</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (11)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="MissingRegistered"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">MissingRegistered: Missing registered class</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/swipe_right_layout.xml">../../src/main/res/layout/swipe_right_layout.xml</a>:1</span>: <span class="message">Class referenced in the layout file, <code>com.clouder.watch.call.ui.SwipeRightLayout</code>, was not found in the project or the libraries</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> <span class="errorspan">&lt;com.clouder.watch.call.ui.SwipeRightLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   2</span>     android:layout_width="match_parent"
+<span class="lineno">   3</span>     android:layout_height="match_parent">
+</pre>
+</div>
+<div class="metadata">Priority: 8 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Missing registered class.</div>
+<div class="explanation">
+If a class is referenced in the manifest, it must also exist in the project (or in one of the libraries included by the project. This check helps uncover typos in registration names, or attempts to rename or move classes without updating the manifest file properly.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html">http://developer.android.com/guide/topics/manifest/manifest-intro.html</a>
+</div><br/>To suppress this error, use the issue id "MissingRegistered" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="OldTargetApi"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">OldTargetApi: Target SDK attribute is not targeting latest version</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:11</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     defaultConfig {
+<span class="lineno">   9</span>         applicationId "com.clouder.watch.call"
+<span class="lineno">  10</span>         minSdkVersion 21
+<span class="lineno">  11</span>         <span class="errorspan">targetSdkVersion 21</span>
+<span class="lineno">  12</span>         versionCode 1
+<span class="lineno">  13</span>         versionName "1.0"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Target SDK attribute is not targeting latest version.</div>
+<div class="explanation">
+When your application runs on a version of Android that is more recent than your <code>targetSdkVersion</code> specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the <code>targetSdkVersion</code> is less than 14, your app may get an option button in the UI.<br/>
+<br/>
+To fix this issue, set the <code>targetSdkVersion</code> to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div><br/>To suppress this error, use the issue id "OldTargetApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SimpleDateFormat"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">SimpleDateFormat: Implied locale in date format</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:145</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 142</span>     private static final String EXTRA_TIME = "extra_time";
+<span class="lineno"> 143</span> 
+<span class="lineno"> 144</span> 
+<span class="lineno"> 145</span>     private SimpleDateFormat sfd = <span class="errorspan">new SimpleDateFormat("yyyy/MM/dd HH:mm");</span>
+<span class="lineno"> 146</span> 
+<span class="lineno"> 147</span>     private BroadcastReceiver receiver;
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Implied locale in date format.</div>
+<div class="explanation">
+Almost all callers should use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code> to get a ready-made instance of SimpleDateFormat suitable for the user's locale. The main reason you'd create an instance this class directly is because you need to format/parse a specific machine-readable format, in which case you almost certainly want to explicitly ask for US to ensure that you get ASCII digits (rather than, say, Arabic digits).<br/>
+<br/>
+Therefore, you should either use the form of the SimpleDateFormat constructor where you pass in an explicit locale, such as Locale.US, or use one of the get instance methods, or suppress this error if really know what you are doing.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/java/text/SimpleDateFormat.html">http://developer.android.com/reference/java/text/SimpleDateFormat.html</a>
+</div><br/>To suppress this error, use the issue id "SimpleDateFormat" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="InflateParams"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">InflateParams: Layout Inflation without a Parent</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/ContactSimpleAdapter.java">../../src/main/java/com/clouder/watch/call/ui/ContactSimpleAdapter.java</a>:48</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno">  45</span>         ViewHolder holder = null;
+<span class="lineno">  46</span>         if (convertView == null) {
+<span class="lineno">  47</span>             holder = new ViewHolder();
+<span class="lineno">  48</span>             convertView = mInflater.inflate(R.layout.list_contacts, <span class="errorspan">null);</span>
+<span class="lineno">  49</span>             holder.img = (RoundImageView) convertView.findViewById(R.id.img);
+<span class="lineno">  50</span>             holder.title = (TextView) convertView.findViewById(R.id.name);
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:228</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno"> 225</span>         Intent callListenerServiceIntent = new Intent();
+<span class="lineno"> 226</span>         callListenerServiceIntent.setComponent(new ComponentName("com.clouder.watch.mobile", "com.clouder.watch.mobile.CallMessageListenerService"));
+<span class="lineno"> 227</span>         bindService(callListenerServiceIntent, serviceConnection, BIND_AUTO_CREATE);
+<span class="lineno"> 228</span>         contactsView = getLayoutInflater().inflate(R.layout.contacts_layout, <span class="errorspan">null);</span>
+<span class="lineno"> 229</span>         recordsView = getLayoutInflater().inflate(R.layout.records_layout, null);
+<span class="lineno"> 230</span>         firstViewPager = getLayoutInflater().inflate(R.layout.viewpager_none, null);
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:229</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno"> 226</span>         callListenerServiceIntent.setComponent(new ComponentName("com.clouder.watch.mobile", "com.clouder.watch.mobile.CallMessageListenerService"));
+<span class="lineno"> 227</span>         bindService(callListenerServiceIntent, serviceConnection, BIND_AUTO_CREATE);
+<span class="lineno"> 228</span>         contactsView = getLayoutInflater().inflate(R.layout.contacts_layout, null);
+<span class="lineno"> 229</span>         recordsView = getLayoutInflater().inflate(R.layout.records_layout, <span class="errorspan">null);</span>
+<span class="lineno"> 230</span>         firstViewPager = getLayoutInflater().inflate(R.layout.viewpager_none, null);
+<span class="lineno"> 231</span>         lists.add(firstViewPager);
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:230</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno"> 227</span>         bindService(callListenerServiceIntent, serviceConnection, BIND_AUTO_CREATE);
+<span class="lineno"> 228</span>         contactsView = getLayoutInflater().inflate(R.layout.contacts_layout, null);
+<span class="lineno"> 229</span>         recordsView = getLayoutInflater().inflate(R.layout.records_layout, null);
+<span class="lineno"> 230</span>         firstViewPager = getLayoutInflater().inflate(R.layout.viewpager_none, <span class="errorspan">null);</span>
+<span class="lineno"> 231</span>         lists.add(firstViewPager);
+<span class="lineno"> 232</span>         lists.add(contactsView);
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:329</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno"> 326</span>                 ViewHolder viewHolder;
+<span class="lineno"> 327</span>                 if (convertView == null) {
+<span class="lineno"> 328</span>                     viewHolder = new ViewHolder();
+<span class="lineno"> 329</span>                     convertView = getLayoutInflater().inflate(R.layout.list_contacts, <span class="errorspan">null);</span>
+<span class="lineno"> 330</span>                     viewHolder.roundImageView = (RoundImageView) convertView.findViewById(R.id.img);
+<span class="lineno"> 331</span>                     viewHolder.tvName = (TextView) convertView.findViewById(R.id.name);
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:372</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno"> 369</span>                 ViewHolder viewHolder;
+<span class="lineno"> 370</span>                 if (convertView == null) {
+<span class="lineno"> 371</span>                     viewHolder = new ViewHolder();
+<span class="lineno"> 372</span>                     convertView = getLayoutInflater().inflate(R.layout.list_records, <span class="errorspan">null);</span>
+<span class="lineno"> 373</span>                     viewHolder.roundImageView = (RoundImageView) convertView.findViewById(R.id.img);
+<span class="lineno"> 374</span>                     viewHolder.tvName = (TextView) convertView.findViewById(R.id.name);
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/RecordSimpleAdapter.java">../../src/main/java/com/clouder/watch/call/ui/RecordSimpleAdapter.java</a>:48</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno">  45</span>         ViewHolder holder = null;
+<span class="lineno">  46</span>         if (convertView == null) {
+<span class="lineno">  47</span>             holder = new ViewHolder();
+<span class="lineno">  48</span>             convertView = mInflater.inflate(R.layout.list_records, <span class="errorspan">null);</span>
+<span class="lineno">  49</span>             holder.img = (RoundImageView) convertView.findViewById(R.id.img);
+<span class="lineno">  50</span>             holder.title = (TextView) convertView.findViewById(R.id.name);
+</pre>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Layout Inflation without a Parent.</div>
+<div class="explanation">
+When inflating a layout, avoid passing in null as the parent view, since otherwise any layout parameters on the root of the inflated layout will be ignored.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://www.doubleencore.com/2013/05/layout-inflation-as-intended">http://www.doubleencore.com/2013/05/layout-inflation-as-intended</a>
+</div><br/>To suppress this error, use the issue id "InflateParams" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Correctness:Messages"></a>
+<div class="category"><a href="#" title="Return to top">Correctness:Messages</a><div class="categorySeparator"></div>
+</div>
+<a name="ExtraTranslation"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ExtraTranslation: Extra translation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values-en-rUS/strings.xml">../../src/main/res/values-en-rUS/strings.xml</a>:8</span>: <span class="message">"<code>notify</code>" is translated here but not found in default locale</span><br /><pre class="errorlines">
+<span class="lineno">   5</span>     &lt;string name="contacts_empty">No contacts&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="records_empty">Call log is empty&lt;/string>
+<span class="lineno">   7</span>     &lt;string name="img_btn">btn&lt;/string>
+<span class="lineno">   8</span>     &lt;string <span class="errorspan">name="notify">Turn off flight mode&lt;/string></span>
+<span class="lineno">   9</span> &lt;/resources>
+<span class="lineno">  10</span> 
+</pre>
+<ul><span class="location"><a href="../../src/main/res/values-zh-rCN/strings.xml">../../src/main/res/values-zh-rCN/strings.xml</a>:8</span>: <span class="message">Also translated here</span><br /><pre class="errorlines">
+<span class="lineno">   5</span>     &lt;string name="contacts_empty">&#36890;&#35759;&#24405;&#20026;&#31354;&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="records_empty">&#36890;&#35805;&#35760;&#24405;&#20026;&#31354;&lt;/string>
+<span class="lineno">   7</span>     &lt;string name="img_btn">btn&lt;/string>
+<span class="lineno">   8</span>     &lt;string <span class="errorspan">name="notify">&#35831;&#20808;&#20851;&#38381;&#39134;&#34892;&#27169;&#24335;&lt;/string></span>
+<span class="lineno">   9</span> &lt;/resources>
+<span class="lineno">  10</span> 
+</pre></ul></div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Correctness:Messages</div>
+Severity: <span class="error">Fatal</span><div class="summary">
+Explanation: Extra translation.</div>
+<div class="explanation">
+If a string appears in a specific language translation file, but there is no corresponding string in the default locale, then this string is probably unused. (It's technically possible that your application is only intended to run in a specific locale, but it's still a good idea to provide a fallback.).<br/>
+<br/>
+Note that these strings can lead to crashes if the string is looked up on any locale not providing a translation, so it's important to clean them up.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ExtraTranslation" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="HandlerLeak"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HandlerLeak: Handler reference leaks</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/IncomingActivity.java">../../src/main/java/com/clouder/watch/call/activity/IncomingActivity.java</a>:233</span>: <span class="message">This Handler class should be static or leaks might occur (new android.os.Handler(){})</span><br /><pre class="errorlines">
+<span class="lineno"> 230</span>         registerReceiver(mReceivers, filter);
+<span class="lineno"> 231</span>         Log.d(TAG, "&#28155;&#21152;SIM&#21345;&#20449;&#24687;&#30456;&#20851;&#24191;&#25773;&#25104;&#21151;");
+<span class="lineno"> 232</span> 
+<span class="lineno"> 233</span>         final Handler handler = new Handler() <span class="errorspan">{</span>
+<span class="lineno"> 234</span>             @Override
+<span class="lineno"> 235</span>             public void handleMessage(Message msg) {
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/activity/MainActivity.java">../../src/main/java/com/clouder/watch/call/activity/MainActivity.java</a>:149</span>: <span class="message">This Handler class should be static or leaks might occur (new android.os.Handler(){})</span><br /><pre class="errorlines">
+<span class="lineno"> 146</span> 
+<span class="lineno"> 147</span>     private BroadcastReceiver receiver;
+<span class="lineno"> 148</span> 
+<span class="lineno"> 149</span>     private Handler uiHandler = new Handler() <span class="errorspan">{</span>
+<span class="lineno"> 150</span>         @Override
+<span class="lineno"> 151</span>         public void handleMessage(Message msg) {
+</pre>
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Handler reference leaks.</div>
+<div class="explanation">
+Since this Handler is declared as an inner class, it may prevent the outer class from being garbage collected. If the Handler is using a Looper or MessageQueue for a thread other than the main thread, then there is no issue. If the Handler is using the Looper or MessageQueue of the main thread, you need to fix your Handler declaration, as follows: Declare the Handler as a static class; In the outer class, instantiate a WeakReference to the outer class and pass this object to your Handler when you instantiate the Handler; Make all references to members of the outer class using the WeakReference object.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "HandlerLeak" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="Overdraw"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">Overdraw: Overdraw: Painting regions more than once</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/activity_incoming.xml">../../src/main/res/layout/activity_incoming.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/bg1</code> with a theme that also paints a background (inferred theme is <code>@style/Translucent</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@drawable/bg1"</span>
+<span class="lineno">   7</span>     android:weightSum="1">
+<span class="lineno">   8</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_rect.xml">../../src/main/res/layout/activity_incoming_rect.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/bg1</code> with a theme that also paints a background (inferred theme is <code>@style/Translucent</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@drawable/bg1"</span>
+<span class="lineno">   7</span>     android:orientation="vertical"
+<span class="lineno">   8</span>     android:weightSum="1">
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_round.xml">../../src/main/res/layout/activity_incoming_round.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/bg1</code> with a theme that also paints a background (inferred theme is <code>@style/Translucent</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@drawable/bg1"</span>
+<span class="lineno">   7</span>     android:orientation="vertical"
+<span class="lineno">   8</span>     android:weightSum="1">
+</pre>
+<span class="location"><a href="../../src/main/res/layout/contacts_layout.xml">../../src/main/res/layout/contacts_layout.xml</a>:4</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/bg1</code> with a theme that also paints a background (inferred theme is <code>@style/Theme_AppStartLoadTranslucent</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<span class="lineno">   2</span>     android:layout_width="match_parent"
+<span class="lineno">   3</span>     android:layout_height="match_parent"
+<span class="lineno">   4</span>     <span class="errorspan">android:background="@drawable/bg1"></span>
+<span class="lineno">   5</span> 
+<span class="lineno">   6</span>     &lt;ListView
+</pre>
+<span class="location"><a href="../../src/main/res/layout/records_layout.xml">../../src/main/res/layout/records_layout.xml</a>:4</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/bg1</code> with a theme that also paints a background (inferred theme is <code>@style/Theme_AppStartLoadTranslucent</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<span class="lineno">   2</span>     android:layout_width="match_parent"
+<span class="lineno">   3</span>     android:layout_height="match_parent"
+<span class="lineno">   4</span>     <span class="errorspan">android:background="@drawable/bg1"></span>
+<span class="lineno">   5</span> 
+<span class="lineno">   6</span>     &lt;ListView
+</pre>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Overdraw: Painting regions more than once.</div>
+<div class="explanation">
+If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called "overdraw".<br/>
+<br/>
+NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it's currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.<br/>
+<br/>
+If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.<br/>
+<br/>
+Of course it's possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead.<br/>
+
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "Overdraw" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_rect.xml">../../src/main/res/layout/activity_incoming_rect.xml</a></span>: <span class="message">The resource <code>R.layout.activity_incoming_rect</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_round.xml">../../src/main/res/layout/activity_incoming_round.xml</a></span>: <span class="message">The resource <code>R.layout.activity_incoming_round</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/layout/rect_activity_main.xml">../../src/main/res/layout/rect_activity_main.xml</a></span>: <span class="message">The resource <code>R.layout.rect_activity_main</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/layout/round_activity_main.xml">../../src/main/res/layout/round_activity_main.xml</a></span>: <span class="message">The resource <code>R.layout.round_activity_main</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/drawable/shadow_left.png">../../src/main/res/drawable/shadow_left.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/shadow_left.png" /><span class="message">The resource <code>R.drawable.shadow_left</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/swipe_right_layout.xml">../../src/main/res/layout/swipe_right_layout.xml</a></span>: <span class="message">The resource <code>R.layout.swipe_right_layout</code> appears to be unused</span><br />
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UselessParent"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UselessParent: Useless parent layout</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/activity_incoming.xml">../../src/main/res/layout/activity_incoming.xml</a>:13</span>: <span class="message">This <code>RelativeLayout</code> layout or its <code>RelativeLayout</code> parent is possibly useless</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>         android:layout_width="match_parent"
+<span class="lineno">  11</span>         android:layout_height="match_parent">
+<span class="lineno">  12</span> 
+<span class="lineno">  13</span>         <span class="errorspan">&lt;RelativeLayout</span>
+<span class="lineno">  14</span>             android:id="@+id/Out"
+<span class="lineno">  15</span>             android:layout_width="320dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_rect.xml">../../src/main/res/layout/activity_incoming_rect.xml</a>:10</span>: <span class="message">This <code>RelativeLayout</code> layout or its <code>RelativeLayout</code> parent is possibly useless; transfer the <code>background</code> attribute to the other view</span><br /><pre class="errorlines">
+<span class="lineno">   7</span>     android:orientation="vertical"
+<span class="lineno">   8</span>     android:weightSum="1">
+<span class="lineno">   9</span> 
+<span class="lineno">  10</span>     <span class="errorspan">&lt;RelativeLayout</span>
+<span class="lineno">  11</span>         android:id="@+id/Out"
+<span class="lineno">  12</span>         android:layout_width="320dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_round.xml">../../src/main/res/layout/activity_incoming_round.xml</a>:10</span>: <span class="message">This <code>RelativeLayout</code> layout or its <code>RelativeLayout</code> parent is possibly useless; transfer the <code>background</code> attribute to the other view</span><br /><pre class="errorlines">
+<span class="lineno">   7</span>     android:orientation="vertical"
+<span class="lineno">   8</span>     android:weightSum="1">
+<span class="lineno">   9</span> 
+<span class="lineno">  10</span>     <span class="errorspan">&lt;RelativeLayout</span>
+<span class="lineno">  11</span>         android:id="@+id/Out"
+<span class="lineno">  12</span>         android:layout_width="320dp"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 2 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Useless parent layout.</div>
+<div class="explanation">
+A layout with children that has no siblings, is not a scrollview or a root layout, and does not have a background, can be removed and have its children moved directly into the parent for a flatter and more efficient layout hierarchy.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UselessParent" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconLocation"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconLocation: Image defined in density-independent drawable folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable/bg1.png">../../src/main/res/drawable/bg1.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/bg1.png" /><span class="message">Found bitmap drawable <code>res/drawable/bg1.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/bg_call_light_1.png">../../src/main/res/drawable/bg_call_light_1.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/bg_call_light_1.png" /><span class="message">Found bitmap drawable <code>res/drawable/bg_call_light_1.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/bg_call_light_2.png">../../src/main/res/drawable/bg_call_light_2.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/bg_call_light_2.png" /><span class="message">Found bitmap drawable <code>res/drawable/bg_call_light_2.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/bg_call_light_3.png">../../src/main/res/drawable/bg_call_light_3.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/bg_call_light_3.png" /><span class="message">Found bitmap drawable <code>res/drawable/bg_call_light_3.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/bg_call_list.png">../../src/main/res/drawable/bg_call_list.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/bg_call_list.png" /><span class="message">Found bitmap drawable <code>res/drawable/bg_call_list.png</code> in densityless folder</span><br clear="right"/>
+<button id="IconLocationDivLink" onclick="reveal('IconLocationDiv');" />+ 9 More Occurrences...</button>
+<div id="IconLocationDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/drawable/btn_accept_hover.png">../../src/main/res/drawable/btn_accept_hover.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/btn_accept_hover.png" /><span class="message">Found bitmap drawable <code>res/drawable/btn_accept_hover.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/btn_accept_normal.png">../../src/main/res/drawable/btn_accept_normal.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/btn_accept_normal.png" /><span class="message">Found bitmap drawable <code>res/drawable/btn_accept_normal.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/btn_terminate_hover.png">../../src/main/res/drawable/btn_terminate_hover.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/btn_terminate_hover.png" /><span class="message">Found bitmap drawable <code>res/drawable/btn_terminate_hover.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/btn_terminate_normal.png">../../src/main/res/drawable/btn_terminate_normal.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/btn_terminate_normal.png" /><span class="message">Found bitmap drawable <code>res/drawable/btn_terminate_normal.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/circle_1.png">../../src/main/res/drawable/circle_1.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/circle_1.png" /><span class="message">Found bitmap drawable <code>res/drawable/circle_1.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/circle_2.png">../../src/main/res/drawable/circle_2.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/circle_2.png" /><span class="message">Found bitmap drawable <code>res/drawable/circle_2.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/img_call_head.png">../../src/main/res/drawable/img_call_head.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/img_call_head.png" /><span class="message">Found bitmap drawable <code>res/drawable/img_call_head.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/img_call_list_head.png">../../src/main/res/drawable/img_call_list_head.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/img_call_list_head.png" /><span class="message">Found bitmap drawable <code>res/drawable/img_call_list_head.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/shadow_left.png">../../src/main/res/drawable/shadow_left.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/shadow_left.png" /><span class="message">Found bitmap drawable <code>res/drawable/shadow_left.png</code> in densityless folder</span><br clear="right"/>
+</div>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image defined in density-independent drawable folder.</div>
+<div class="explanation">
+The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to <code>drawable-mdpi</code> and consider providing higher and lower resolution versions in <code>drawable-ldpi</code>, <code>drawable-hdpi</code> and <code>drawable-xhdpi</code>. If the icon <b>really</b> is density independent (for example a solid color) you can place it in <code>drawable-nodpi</code>.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconLocation" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Accessibility"></a>
+<div class="category"><a href="#" title="Return to top">Accessibility</a><div class="categorySeparator"></div>
+</div>
+<a name="ContentDescription"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ContentDescription: Image without <code>contentDescription</code></a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:23</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  20</span>             android:gravity="center"
+<span class="lineno">  21</span>             android:orientation="horizontal">
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  24</span>                 android:id="@+id/circle_contact"
+<span class="lineno">  25</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:29</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  26</span>                 android:layout_height="wrap_content"
+<span class="lineno">  27</span>                 android:src="@drawable/circle_2" />
+<span class="lineno">  28</span> 
+<span class="lineno">  29</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  30</span>                 android:id="@+id/circle_record"
+<span class="lineno">  31</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/rect_activity_main.xml">../../src/main/res/layout/rect_activity_main.xml</a>:20</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  17</span>         android:gravity="center"
+<span class="lineno">  18</span>         android:orientation="horizontal">
+<span class="lineno">  19</span> 
+<span class="lineno">  20</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  21</span>             android:id="@+id/circle_contact"
+<span class="lineno">  22</span>             android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/rect_activity_main.xml">../../src/main/res/layout/rect_activity_main.xml</a>:26</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  23</span>             android:layout_height="wrap_content"
+<span class="lineno">  24</span>             android:src="@drawable/circle_2" />
+<span class="lineno">  25</span> 
+<span class="lineno">  26</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  27</span>             android:id="@+id/circle_record"
+<span class="lineno">  28</span>             android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/round_activity_main.xml">../../src/main/res/layout/round_activity_main.xml</a>:20</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  17</span>         android:gravity="center"
+<span class="lineno">  18</span>         android:orientation="horizontal">
+<span class="lineno">  19</span> 
+<span class="lineno">  20</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  21</span>             android:layout_width="wrap_content"
+<span class="lineno">  22</span>             android:layout_height="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/round_activity_main.xml">../../src/main/res/layout/round_activity_main.xml</a>:25</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  22</span>             android:layout_height="wrap_content"
+<span class="lineno">  23</span>             android:src="@drawable/circle_2" />
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  26</span>             android:layout_width="wrap_content"
+<span class="lineno">  27</span>             android:layout_height="wrap_content"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 3 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image without <code>contentDescription</code></div>
+<div class="explanation">
+Non-textual widgets like ImageViews and ImageButtons should use the <code>contentDescription</code> attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.<br/>
+<br/>
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore="ContentDescription" attribute.<br/>
+<br/>
+Note that for text fields, you should not set both the <code>hint</code> and the <code>contentDescription</code> attributes since the hint will never be shown. Just set the <code>hint</code>. See <a href="http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases">http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases</a>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ContentDescription" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Bi-directional Text"></a>
+<div class="category"><a href="#" title="Return to top">Bi-directional Text</a><div class="categorySeparator"></div>
+</div>
+<a name="RtlHardcoded"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RtlHardcoded: Using left/right instead of start/end attributes</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java">../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java</a>:1438</span>: <span class="message">Use "<code>Gravity.END</code>" instead of "<code>Gravity.RIGHT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">1435</span>                     int widthMode = MeasureSpec.AT_MOST;
+<span class="lineno">1436</span>                     int heightMode = MeasureSpec.AT_MOST;
+<span class="lineno">1437</span>                     boolean consumeVertical = vgrav == Gravity.TOP || vgrav == Gravity.BOTTOM;
+<span class="lineno">1438</span>                     boolean consumeHorizontal = hgrav == Gravity.LEFT || hgrav == Gravity.<span class="errorspan">RIGHT;</span>
+<span class="lineno">1439</span> 
+<span class="lineno">1440</span>                     if (consumeVertical) {
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java">../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java</a>:1438</span>: <span class="message">Use "<code>Gravity.START</code>" instead of "<code>Gravity.LEFT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">1435</span>                     int widthMode = MeasureSpec.AT_MOST;
+<span class="lineno">1436</span>                     int heightMode = MeasureSpec.AT_MOST;
+<span class="lineno">1437</span>                     boolean consumeVertical = vgrav == Gravity.TOP || vgrav == Gravity.BOTTOM;
+<span class="lineno">1438</span>                     boolean consumeHorizontal = hgrav == Gravity.<span class="errorspan">LEFT || hgrav == Gravity.RIGHT;</span>
+<span class="lineno">1439</span> 
+<span class="lineno">1440</span>                     if (consumeVertical) {
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java">../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java</a>:1566</span>: <span class="message">Use "<code>Gravity.START</code>" instead of "<code>Gravity.LEFT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">1563</span>                         default:
+<span class="lineno">1564</span>                             childLeft = paddingLeft;
+<span class="lineno">1565</span>                             break;
+<span class="lineno">1566</span>                         case Gravity.<span class="errorspan">LEFT:</span>
+<span class="lineno">1567</span>                             childLeft = paddingLeft;
+<span class="lineno">1568</span>                             paddingLeft += child.getMeasuredWidth();
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java">../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java</a>:1574</span>: <span class="message">Use "<code>Gravity.END</code>" instead of "<code>Gravity.RIGHT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">1571</span>                             childLeft = Math.max((width - child.getMeasuredWidth()) / 2,
+<span class="lineno">1572</span>                                     paddingLeft);
+<span class="lineno">1573</span>                             break;
+<span class="lineno">1574</span>                         case Gravity.<span class="errorspan">RIGHT:</span>
+<span class="lineno">1575</span>                             childLeft = width - paddingRight - child.getMeasuredWidth();
+<span class="lineno">1576</span>                             paddingRight += child.getMeasuredWidth();
+</pre>
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java">../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java</a>:1731</span>: <span class="message">Use "<code>Gravity.START</code>" instead of "<code>Gravity.LEFT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">1728</span>                     default:
+<span class="lineno">1729</span>                         childLeft = paddingLeft;
+<span class="lineno">1730</span>                         break;
+<span class="lineno">1731</span>                     case Gravity.<span class="errorspan">LEFT:</span>
+<span class="lineno">1732</span>                         childLeft = paddingLeft;
+<span class="lineno">1733</span>                         paddingLeft += child.getWidth();
+</pre>
+<button id="RtlHardcodedDivLink" onclick="reveal('RtlHardcodedDiv');" />+ 14 More Occurrences...</button>
+<div id="RtlHardcodedDiv" style="display: none">
+<span class="location"><a href="../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java">../../src/main/java/com/clouder/watch/call/ui/MyViewPager.java</a>:1739</span>: <span class="message">Use "<code>Gravity.END</code>" instead of "<code>Gravity.RIGHT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">1736</span>                         childLeft = Math.max((width - child.getMeasuredWidth()) / 2,
+<span class="lineno">1737</span>                                 paddingLeft);
+<span class="lineno">1738</span>                         break;
+<span class="lineno">1739</span>                     case Gravity.<span class="errorspan">RIGHT:</span>
+<span class="lineno">1740</span>                         childLeft = width - paddingRight - child.getMeasuredWidth();
+<span class="lineno">1741</span>                         paddingRight += child.getMeasuredWidth();
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming.xml">../../src/main/res/layout/activity_incoming.xml</a>:113</span>: <span class="message">Consider replacing <code>android:layout_toLeftOf</code> with <code>android:layout_toStartOf="@id/txtHide"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 110</span>                     android:id="@+id/callReject"
+<span class="lineno"> 111</span>                     android:layout_width="@dimen/reject_width"
+<span class="lineno"> 112</span>                     android:layout_height="@dimen/reject_width"
+<span class="lineno"> 113</span>                     <span class="errorspan">android:layout_toLeftOf="@id/txtHide"</span>
+<span class="lineno"> 114</span>                     android:background="@drawable/call_terminate"
+<span class="lineno"> 115</span>                     android:contentDescription="@string/img_btn"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming.xml">../../src/main/res/layout/activity_incoming.xml</a>:123</span>: <span class="message">Consider replacing <code>android:layout_toRightOf</code> with <code>android:layout_toEndOf="@id/txtHide"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 120</span>                     android:id="@+id/callAccept"
+<span class="lineno"> 121</span>                     android:layout_width="@dimen/reject_width"
+<span class="lineno"> 122</span>                     android:layout_height="@dimen/reject_width"
+<span class="lineno"> 123</span>                     <span class="errorspan">android:layout_toRightOf="@id/txtHide"</span>
+<span class="lineno"> 124</span>                     android:background="@drawable/call_accept"
+<span class="lineno"> 125</span>                     android:contentDescription="@string/img_btn"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_rect.xml">../../src/main/res/layout/activity_incoming_rect.xml</a>:110</span>: <span class="message">Consider replacing <code>android:layout_toLeftOf</code> with <code>android:layout_toStartOf="@id/txtHide"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 107</span>                 android:id="@+id/callReject"
+<span class="lineno"> 108</span>                 android:layout_width="70dp"
+<span class="lineno"> 109</span>                 android:layout_height="70dp"
+<span class="lineno"> 110</span>                 <span class="errorspan">android:layout_toLeftOf="@id/txtHide"</span>
+<span class="lineno"> 111</span>                 android:background="@drawable/call_terminate"
+<span class="lineno"> 112</span>                 android:contentDescription="@string/img_btn"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_rect.xml">../../src/main/res/layout/activity_incoming_rect.xml</a>:120</span>: <span class="message">Consider replacing <code>android:layout_toRightOf</code> with <code>android:layout_toEndOf="@id/txtHide"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 117</span>                 android:id="@+id/callAccept"
+<span class="lineno"> 118</span>                 android:layout_width="70dp"
+<span class="lineno"> 119</span>                 android:layout_height="70dp"
+<span class="lineno"> 120</span>                 <span class="errorspan">android:layout_toRightOf="@id/txtHide"</span>
+<span class="lineno"> 121</span>                 android:background="@drawable/call_accept"
+<span class="lineno"> 122</span>                 android:contentDescription="@string/img_btn"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_round.xml">../../src/main/res/layout/activity_incoming_round.xml</a>:110</span>: <span class="message">Consider replacing <code>android:layout_toLeftOf</code> with <code>android:layout_toStartOf="@id/txtHide"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 107</span>                 android:id="@+id/callReject"
+<span class="lineno"> 108</span>                 android:layout_width="70dp"
+<span class="lineno"> 109</span>                 android:layout_height="70dp"
+<span class="lineno"> 110</span>                 <span class="errorspan">android:layout_toLeftOf="@id/txtHide"</span>
+<span class="lineno"> 111</span>                 android:background="@drawable/call_terminate"
+<span class="lineno"> 112</span>                 android:contentDescription="@string/img_btn"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_incoming_round.xml">../../src/main/res/layout/activity_incoming_round.xml</a>:120</span>: <span class="message">Consider replacing <code>android:layout_toRightOf</code> with <code>android:layout_toEndOf="@id/txtHide"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 117</span>                 android:id="@+id/callAccept"
+<span class="lineno"> 118</span>                 android:layout_width="70dp"
+<span class="lineno"> 119</span>                 android:layout_height="70dp"
+<span class="lineno"> 120</span>                 <span class="errorspan">android:layout_toRightOf="@id/txtHide"</span>
+<span class="lineno"> 121</span>                 android:background="@drawable/call_accept"
+<span class="lineno"> 122</span>                 android:contentDescription="@string/img_btn"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:33</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  30</span>                 android:id="@+id/circle_record"
+<span class="lineno">  31</span>                 android:layout_width="wrap_content"
+<span class="lineno">  32</span>                 android:layout_height="wrap_content"
+<span class="lineno">  33</span>                 <span class="errorspan">android:layout_marginLeft="10dp"</span>
+<span class="lineno">  34</span>                 android:src="@drawable/circle_1" />
+<span class="lineno">  35</span>         &lt;/LinearLayout>
+</pre>
+<span class="location"><a href="../../src/main/res/layout/list_contacts.xml">../../src/main/res/layout/list_contacts.xml</a>:23</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="12dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  20</span>             android:layout_width="wrap_content"
+<span class="lineno">  21</span>             android:layout_height="wrap_content"
+<span class="lineno">  22</span>             android:layout_marginTop="8dp"
+<span class="lineno">  23</span>             <span class="errorspan">android:layout_marginLeft="12dp"</span>
+<span class="lineno">  24</span>             android:textColor="#FFFFFFFF"
+<span class="lineno">  25</span>             android:textSize="23sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/list_contacts.xml">../../src/main/res/layout/list_contacts.xml</a>:31</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="12dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  28</span>             android:layout_height="wrap_content"
+<span class="lineno">  29</span> 			android:textColor="@color/green"
+<span class="lineno">  30</span> 			android:layout_marginTop="4dp"
+<span class="lineno">  31</span>             <span class="errorspan">android:layout_marginLeft="12dp"</span>
+<span class="lineno">  32</span>             android:textSize="19sp" />
+<span class="lineno">  33</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/list_records.xml">../../src/main/res/layout/list_records.xml</a>:23</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="12dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  20</span>             android:layout_width="wrap_content"
+<span class="lineno">  21</span>             android:layout_height="wrap_content"
+<span class="lineno">  22</span>             android:layout_marginTop="8dp"
+<span class="lineno">  23</span>             <span class="errorspan">android:layout_marginLeft="12dp"</span>
+<span class="lineno">  24</span>             android:textColor="#FFFFFFFF"
+<span class="lineno">  25</span>             android:textSize="23sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/list_records.xml">../../src/main/res/layout/list_records.xml</a>:31</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="12dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  28</span>             android:layout_height="wrap_content"
+<span class="lineno">  29</span> 			android:textColor="#FFFFFFFF"
+<span class="lineno">  30</span> 			android:layout_marginTop="4dp"
+<span class="lineno">  31</span>             <span class="errorspan">android:layout_marginLeft="12dp"</span>
+<span class="lineno">  32</span>             android:textSize="19sp" />
+<span class="lineno">  33</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/rect_activity_main.xml">../../src/main/res/layout/rect_activity_main.xml</a>:30</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="5dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>             android:id="@+id/circle_record"
+<span class="lineno">  28</span>             android:layout_width="wrap_content"
+<span class="lineno">  29</span>             android:layout_height="wrap_content"
+<span class="lineno">  30</span>             <span class="errorspan">android:layout_marginLeft="5dp"</span>
+<span class="lineno">  31</span>             android:src="@drawable/circle_1" />
+<span class="lineno">  32</span>     &lt;/LinearLayout>
+</pre>
+<span class="location"><a href="../../src/main/res/layout/round_activity_main.xml">../../src/main/res/layout/round_activity_main.xml</a>:28</span>: <span class="message">Consider replacing <code>android:layout_marginLeft</code> with <code>android:layout_marginStart="5dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  25</span>         &lt;ImageView
+<span class="lineno">  26</span>             android:layout_width="wrap_content"
+<span class="lineno">  27</span>             android:layout_height="wrap_content"
+<span class="lineno">  28</span>             <span class="errorspan">android:layout_marginLeft="5dp"</span>
+<span class="lineno">  29</span>             android:src="@drawable/circle_1" />
+<span class="lineno">  30</span>     &lt;/LinearLayout>
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Bi-directional Text</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using left/right instead of start/end attributes.</div>
+<div class="explanation">
+Using <code>Gravity#LEFT</code> and <code>Gravity#RIGHT</code> can lead to problems when a layout is rendered in locales where text flows from right to left. Use <code>Gravity#START</code> and <code>Gravity#END</code> instead. Similarly, in XML <code>gravity</code> and <code>layout_gravity</code> attributes, use <code>start</code> rather than <code>left</code>.<br/>
+For XML attributes such as paddingLeft and <code>layout_marginLeft</code>, use <code>paddingStart</code> and <code>layout_marginStart</code>. <b>NOTE</b>: If your <code>minSdkVersion</code> is less than 17, you should add <b>both</b> the older left/right attributes <b>as well as</b> the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.<br/>
+(Note: For <code>Gravity#LEFT</code> and <code>Gravity#START</code>, you can use these constants even when targeting older platforms, because the <code>start</code> bitmask is a superset of the <code>left</code> bitmask. Therefore, you can use <code>gravity="start"</code> rather than <code>gravity="left|start"</code>.)
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RtlHardcoded" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LogConditional"></a>
+<div class="issue">
+<div class="id">LogConditional<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unconditional Logging Calls.</div>
+<div class="explanation">
+The BuildConfig class (available in Tools 17) provides a constant, "DEBUG", which indicates whether the code is being built in release mode or in debug mode. In release mode, you typically want to strip out all the logging calls. Since the compiler will automatically remove all code which is inside a "if (false)" check, surrounding your logging calls with a check for BuildConfig.DEBUG is a good idea.<br/>
+<br/>
+If you <b>really</b> intend for the logging to be present in release mode, you can suppress this warning with a @SuppressLint annotation for the intentional logging calls.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LogConditional" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project.<br/>
+This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a <code>@SuppressLint</code> annotation in the Java code<br/>
+2. With a <code>tools:ignore</code> attribute in the XML file<br/>
+3. With ignore flags specified in the <code>build.gradle</code> file, as explained below<br/>
+4. With a <code>lint.xml</code> configuration file in the project<br/>
+5. With a <code>lint.xml</code> configuration file passed to lint via the --config flag<br/>
+6. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a <code>@SuppressLint("id")</code> annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as <code>"UnusedResources"</code> or <code>{"UnusedResources","UnusedIds"}</code>, or it can be <code>"all"</code> to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the <code>xmlns:android</code> declaration:<br/>
+<code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
+<br/>
+To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
+<br/>
+Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the project in which it applies.<br/>
+<br/>
+The format of the <code>lint.xml</code> file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+<code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>
+<br/>
+For more information, see <a href="http://tools.android.com/tips/lint/suppressing-lint-warnings">http://tools.android.com/tips/lint/suppressing-lint-warnings</a><br/>
+
+
+</body>
+</html>

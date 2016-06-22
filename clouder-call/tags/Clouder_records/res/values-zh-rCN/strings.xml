@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">通话记录</string>
+    <string name="img_btn">图片按钮</string>
+	<string name="records_empty">通话记录为空</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.clouder.watch.setting"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="com.clouder.watch">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!-- 允许程序改变网络链接状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!--允许程序访问访问WIFI网络状态信息  -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!-- 允许程序改变WIFI链接状态 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--语言设置 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.OEM_UNLOCK_STATE"/>
+    <uses-permission android:name="android.permission.android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <!--<uses-feature
+        android:name="android.hardware.type.watch"
+        android:required="true"/>-->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"/>
+    <application
+        android:name=".SettingsApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon"
+        android:label="@string/clouder_settings_label"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/clouder_settings_label">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.settings.SETTINGS"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.WatchFaceActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.BrightnessActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.PowerSaveActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.ScreenLockerActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.DevOpsActivity"
+            android:launchMode="singleTop"/>
+
+        <activity
+            android:name=".activity.BluetoothPairActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.WifiManagerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+
+        <receiver android:name=".AirPlaneModeChangeReceiver">
+            <intent-filter>
+                <action android:name="clouder.watch.action.AIRPLANE_MODE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watchface/clouder-watchfaces/src/main/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="Fri">Fri</string>
+    <string name="Mon">Mon</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
+    <string name="Thu">Thu</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="clock">Clouder_Clock</string>
+    <string name="digital">Clouder_Digital</string>
+</resources>

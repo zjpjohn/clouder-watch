@@ -1,0 +1,5 @@
+<com.clouder.watch.common.ui.SwipeRightLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</com.clouder.watch.common.ui.SwipeRightLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-common/src/main/res/layout/swipe_right_layout.xml --><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/layout/swipe_right_layout.xml -->

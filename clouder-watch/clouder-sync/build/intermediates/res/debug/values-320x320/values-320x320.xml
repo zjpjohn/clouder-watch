@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/values-320x320/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="call_state_btn_width">60dp</dimen>
+    <dimen name="call_state_img_width">140dp</dimen>
+    <dimen name="call_state_roundview_width">120dp</dimen>
+    <dimen name="half_width">160dp</dimen>
+    <dimen name="icon_item_marginEnd">15dp</dimen>
+    <dimen name="icon_marginEnd">25dp</dimen>
+    <dimen name="icon_marginTop">20dp</dimen>
+    <dimen name="notification_list_padding_bottom">0dp</dimen>
+    <dimen name="notification_list_padding_left">10dp</dimen>
+    <dimen name="notification_list_padding_right">10dp</dimen>
+    <dimen name="notification_list_padding_top">0dp</dimen>
+    <dimen name="notification_marginBottom">15dp</dimen>
+    <dimen name="notification_marginLeft">30dp</dimen>
+    <dimen name="notification_marginRight">30dp</dimen>
+    <dimen name="notification_marginTop">40dp</dimen>
+    <dimen name="notification_scroll_height">180dp</dimen>
+    <dimen name="width">320dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digital">数字表盘</string>
+    <string name="clock">指针表盘</string>
+    <string name="Mon">星期一</string>
+    <string name="Tue">星期二</string>
+    <string name="Wed">星期三</string>
+    <string name="Thu">星期四</string>
+    <string name="Fri">星期五</string>
+    <string name="Sat">星期六</string>
+    <string name="Sun">星期日</string>
+</resources>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-9047ba25b6b2837cd756aef069ebef67b5a7d0f7.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\clouder-watch\clouder-common\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dba0dd7dc8d3eb6249165aa1275d9e1b4a2e4ce4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\classes-3dc303b7b8cf1b62fa7c6f80dd4a6a35c336f7c6.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-aa5d488af4c364a9d97f9f57462be385346b9bcc.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\classes-20b06e2d0a942c8a948829380f7db874b1f33101.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-4cdb03e667d2487715071f78a3668ebd67698a82.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-fccadf27b02feb1f37f73398d95e184b00417288.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhou_wenchong\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\gson-2.3.1-5683b3f384a1883f22f3d1363209bed1e8b78efb.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\zxing-core-3.1.1-dafd6c4a26e626b5d16cce8618b7578ff2b90aef.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\classes-6e969f6782a2c75b581e1b294964efc0c22a6abf.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-android-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\zxing-android-core-3.1.1-713d0731e479edd10de4613ed18a1ee63b97144f.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-7e344291d7ff92e3025babe7b02543132b8389e8.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-b4d999f21fff79377aabef5508956e1145574e8c.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-7822b0ac2518292d1995329b2b98a27886a967a3.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-android-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\zxing-android-core-3.1.1-8449741038e687607e5ac4d692399c8c61b5b52c.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78dbf1cc2c8c86721661d34bfa0386a071f83a4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-54682c355eb31f818e156bf14191fbc19c2162c6.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-f407f21871cfba789a570f61199c85d0b812d4f1.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\classes-3194ab733000498dc39a7d5183a4547c40277ade.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\clouder-watch\clouder-common\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dba0dd7dc8d3eb6249165aa1275d9e1b4a2e4ce4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\classes-9e811aecc558b851e35a0c7d466a051b41d37a87.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\clouder-watch\clouder-common\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dba0dd7dc8d3eb6249165aa1275d9e1b4a2e4ce4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-fca986768a1fa3eeb2c911469176b43c19dcd7fe.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\classes-08647ba9de46042553666d2959816daf4a1c1bcd.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-161e65c7eb901067fab75a4d947632d9b95e6d41.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-3b704a1d113781563d5c6101b6474e0dd786c748.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-bc5c1bff02b3c0efd48bcb57edd3e367a72c39c9.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\classes-a9438180cb7312f55730ba379da2d34d4a46fd3b.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78dbf1cc2c8c86721661d34bfa0386a071f83a4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\classes-043f5d621340387d58d2fec300091b61e4e6f3b9.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78dbf1cc2c8c86721661d34bfa0386a071f83a4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\classes-a3854b28ee6420820af8ca8d37aad27ab18e4014.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\classes-53243e1a059e08025b82184291bf60c360f90416.jar" />
+    </item>
+    <item
+        jar="D:\SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-078533c078f15af2ed99ee6575a520f3a28afb82.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\classes-f8c6947078a8dd319964547b4b37810dc7dcdcaa.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\libs\wearable-phone-framework-0.1.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a7b5ee96ebf1e264f35977e6f8f1926982d4deae">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\wearable-phone-framework-0.1.5-bf6b1caa1a45975f8a06a5110274e1abc98dd272.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\zxing-core-3.1.1-e211ca8eeddec1140721bdf0c8a92402bb75f33f.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\classes-bbfce8442a892e558bda9296a3089b4ea37bebe7.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\classes-eb01649b36f14100d56ecad0457d8a5d33ee7a62.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-46dcfa5c71199c037b7cbefe2b7f48e2d7c203f7.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\classes-9d40fb5365a96e3a0ea13ec50f12e1a6ad9edd8c.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\classes-70ab7cf78498235e80d72e9b69160de91413105b.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-e612010d2008a7fd082a4f5ba5c188715cba4951.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\zxing-core-3.1.1-1ef403223f1a45a0c9cf40500d69992b2ac84ad5.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-f83fc8b03ef7662b9c7227428fa61246b5062d70.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-940f7f3f6848357270b571008a004616618ae007.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\libs\wearable-watch-framework-0.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5f60f211d8c2f81426d0174da42b1c6ad3fab9a5">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\wearable-watch-framework-0.1.2-c61e0476fd2b2053f991e58f32283da0dd95a32f.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-8509b5b6a794aa8b11638157464e97df94d97e0a.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-551bd096ebdfc16fba2b3748b9682f19ff106b5a.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-f46a78597686478a0503113552e468522e23ee40.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-a1558e0819dfced2790735b37435fc01f49f52e2.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\classes-72a66d552eca38612aa5536b628e88645c0b4fba.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\libs\wearable-watch-framework-0.1.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cfff43f5ff31e5edd1653cae1078ae1ff0f71f0">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\wearable-watch-framework-0.1.5-fb9fd2efe5ee0efd9c62ba38417b6332bc713ae4.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-32b7e861229526df8000c9300884f7e7c8888715.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\clouder-watch\clouder-common\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dba0dd7dc8d3eb6249165aa1275d9e1b4a2e4ce4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\classes-270a10705f6af8a234cffbc9e633305e6281f6b0.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78dbf1cc2c8c86721661d34bfa0386a071f83a4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\classes-5b10937cd8b17e17755be6a8de33beb0c46fa0af.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-aa10c1c1eefd77430888417c20b13f79bd057141.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\classes-a3dd1908dc751ec6b2e875a1321dd4f7186d536c.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-4a7bbca64a00321c9e35852b415d27bf3539ad0d.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-sync\build\intermediates\pre-dexed\debug\zxing-core-3.1.1-65c12cb88e42977e1ddbeda5556ff7cfc7b4d5f3.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-b1091a236fd20cdebcd04f6d036f377fd58246be.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-android-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\zxing-android-core-3.1.1-3a7b3326a0e4cd3f572658f6ca3126c789225458.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-69f77c22ed9ba147b6d794aa420e2912dc45109a.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-ee4ba1f0c9f52edb1f439c8d94efd589979fb57a.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\classes-d7d6c6d8d82d8b7d874577f6926739e509942f1f.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78dbf1cc2c8c86721661d34bfa0386a071f83a4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\classes-e15e124611487dd667a6c280146043c7369cbf65.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\zxing-core-3.1.1-8a38c75d4545316f707e4edab554493ab05a20d6.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-android-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-mobile\build\intermediates\pre-dexed\debug\zxing-android-core-3.1.1-0249e78866f40ef03daaf93eae9693727f25674c.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-6e901feb85b724f5ff957e1bf3da3018c0bbbedb.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-ca0ac8db6f6c2a6d80de877347c1ce989235820d.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\exploded-aar\com.github.yoojia\zxing\0.3\jars\libs\zxing-android-core-3.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-guide\build\intermediates\pre-dexed\debug\zxing-android-core-3.1.1-6c490cd24bf79b5ae848149608e360029b590284.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-ad3d76abdb27a6fe7b774e40707bbd272c62ff81.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-55fa628c0e69b1347a9eada29f836606ff2870af.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\exploded-aar\clouder-watch\clouder-common\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dba0dd7dc8d3eb6249165aa1275d9e1b4a2e4ce4">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-settings\build\intermediates\pre-dexed\debug\classes-eef8fc4bc00bb22328b0ed8fed82c56bfba79687.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-0129d5f6365311c798b1f6d5d5e7f73528c93b1b.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-2790ea37921ecf8bf441ada2101d154ffe2de4ac.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-watch\clouder-launcher\build\intermediates\pre-dexed\debug\classes-7faa2ae3255c05db3f31663f9a1380bf1a5bdafb.jar" />
+    </item>
+
+</items>

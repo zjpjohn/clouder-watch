@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="147dp"
+    android:background="#000000"
+    android:minHeight="159dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/icon">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/line"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toStartOf="@+id/timeTop"
+                android:ellipsize="end"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:text="我在说些什么我怎么什么都不知道"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/timeTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/line"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:maxLines="2"
+                android:text="12:03"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_message_line"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:maxLines="3"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-sync/src/main/res/layout/item_notification_list.xml -->

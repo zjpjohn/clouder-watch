@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\classes-4dd79c547bc204393e210972d813a44380b0a426.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\libs\wearable-watch-framework-0.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3640d394b892f5bbaec7a8bd0520c86baec52cd9">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\wearable-watch-framework-0.1.3-e362c2183c60494fb75b059fc8426e40c9b7a693.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\classes-a3be6cc33d3f7791b87cab4edf26f0db2c970468.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\classes-d6c1f7daeb77be34dcae2dfa3738628164d06710.jar" />
+    </item>
+    <item
+        jar="D:\SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-d9f44db18bbdf7f1d9ef5538f531010cfca1262e.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-65b68fb590a6da9e28710ee7f315578186161cc4.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\classes-7feed6643e68ae0b2e5e6cab8abb275c81ab1308.jar" />
+    </item>
+    <item
+        jar="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\SVN\Clouder_Watch\PJ_SRC\clouder-call\trunk\clouder-call\clouder-call\build\intermediates\pre-dexed\debug\classes-1487a8f32121ed0bc2989c151d0a95108f93051f.jar" />
+    </item>
+
+</items>

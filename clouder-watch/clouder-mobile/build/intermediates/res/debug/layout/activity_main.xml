@@ -1,0 +1,323 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:background="#ff01395c"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Clouder 助手"
+            android:textColor="@color/white"
+            android:textSize="@dimen/main_title_text_size"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/app_name"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/connected_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="未连接"
+                android:textColor="@color/white"
+                android:textSize="@dimen/main_state_text_size" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/manage_notification"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_list_item">
+
+            <ImageView
+                android:id="@+id/icon_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_notice" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/icon_notification"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="通知管理"
+                    android:textColor="@color/font_title"
+                    android:textSize="@dimen/item_title_text_size" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/item_text_margin_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="管理电话、短信、邮件以及手机APP的摄像头权限"
+                    android:textColor="@color/font_tip"
+                    android:textSize="@dimen/item_tiny_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/btn_more" />
+        </RelativeLayout>
+
+        <include layout="@layout/border_template"></include>
+
+        <RelativeLayout
+            android:id="@+id/manage_watchface"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selector_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/icon_watchface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_watch" />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/icon_watchface"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="表盘中心"
+                    android:textColor="@color/font_title"
+                    android:textSize="@dimen/item_title_text_size" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/item_text_margin_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="选择和更换表盘"
+                    android:textColor="@color/font_tip"
+                    android:textSize="@dimen/item_tiny_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_more" />
+        </RelativeLayout>
+
+        <include layout="@layout/border_template"></include>
+
+        <RelativeLayout
+            android:id="@+id/manage_device_connect"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selector_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/icon_device_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_connect" />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/icon_device_connect"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设备连接"
+                    android:textColor="@color/font_title"
+                    android:textSize="@dimen/item_title_text_size" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/item_text_margin_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="手机与手表设备配对连接、发现新设备"
+                    android:textColor="@color/font_tip"
+                    android:textSize="@dimen/item_tiny_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_more" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/border_template"></include>
+
+        <RelativeLayout
+            android:id="@+id/manage_locker"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selector_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+
+                android:id="@+id/icon_locker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_locked" />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/icon_locker"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="屏幕锁"
+                    android:textColor="@color/font_title"
+                    android:textSize="@dimen/item_title_text_size" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/item_text_margin_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="选择启用锁定屏幕"
+                    android:textColor="@color/font_tip"
+                    android:textSize="@dimen/item_tiny_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_more" />
+        </RelativeLayout>
+
+        <include layout="@layout/border_template"></include>
+
+        <RelativeLayout
+            android:id="@+id/manage_about"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selector_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/icon_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_about" />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/icon_about"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关于"
+                    android:textColor="@color/font_title"
+                    android:textSize="@dimen/item_title_text_size" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/item_text_margin_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="检测更新版本，提供使用帮助"
+                    android:textColor="@color/font_tip"
+                    android:textSize="@dimen/item_tiny_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_more" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-mobile/src/main/res/layout/activity_main.xml -->

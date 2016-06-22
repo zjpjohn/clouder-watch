@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg1"
+    android:weightSum="1">
+
+    <RelativeLayout android:id="@+id/Top"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        >
+
+        <com.example.watch.RoundImageView
+            android:id="@+id/head"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/acceptCall"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        >
+
+        <com.example.watch.RoundImageView
+            android:id="@+id/accHead"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFF"
+            android:format="%s"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/relativeTop"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        >
+
+        <TextView
+            android:id="@+id/txtHide"
+            android:layout_width="25dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/callTerminate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call_terminate"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/callReject"
+            android:background="@drawable/call_terminate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_toLeftOf="@id/txtHide"
+            android:visibility="invisible"
+            />
+
+        <ImageButton
+            android:id="@+id/callAccept"
+            android:background="@drawable/call_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/txtHide"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

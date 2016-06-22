@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <translate
+        android:duration="300"
+        android:fromXDelta="100.0%"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:toXDelta="0.0%" />
+
+</set><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-common/src/main/res/anim/base_slide_right_in.xml --><!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-launcher/build/intermediates/exploded-aar/clouder-watch/clouder-common/unspecified/res/anim/base_slide_right_in.xml -->

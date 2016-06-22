@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="function_not_complete">功能尚未实现</string>
+    <string name="clouder_settings_app_not_found">未找到设置应用</string>
+    <string name="voice_input">倾听中...</string>
+    <string name="voice_resolving">识别中...</string>
+    <string name="unbind_with_sync_service">未绑定同步服务！</string>
+    <string name="bluetooth_disconnected">蓝牙未连接</string>
+    <string name="message_send_failed">消息发送失败</string>
+    <string name="my_plan">我今天有什么安排？</string>
+    <string name="morning_meeting">早晨会议</string>
+    <string name="reception_customer">培训</string>
+    <string name="dinner_with_customers">同客户吃饭</string>
+    <string name="noon_break">午休</string>
+    <string name="afternoon_tea">下午茶</string>
+    <string name="knock_off">下班</string>
+    <string name="my_plan_for_today">我的计划</string>
+
+</resources>

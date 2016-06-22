@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/SVN/Clouder_Watch/PJ_SRC/clouder-watch/clouder-settings/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-zh-rHK/values.xml -->
+    <eat-comment/>
+    <string msgid="8455537630633057684" name="dismiss_overlay_button_label">"結束"</string>
+</resources>
